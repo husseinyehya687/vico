@@ -14,4 +14,66 @@
  * limitations under the License.
  */
 
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.compose")
+    id("maven-publish")
+}
+
+android {
+    compileSdk = Versions.COMPILE_SDK
+
+    defaultConfig {
+        minSdk = Versions.MIN_SDK
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeCompiler {
+        enableStrongSkippingMode = true
+    }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
+}
+
+dependencies {
+    api(project(":vico:core"))
+    api(project(":vico:compose"))
+    api(project(":vico:compose-m2"))
+    api(project(":vico:compose-m3"))
+    api(project(":vico:views"))
+    api(project(":vico:multiplatform"))
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            from(components["release"])
+            groupId = "com.patrykandpatrick.vico"
+            artifactId = "vico"
+            version = Versions.VICO
+        }
+    }
+}
+
+group = "com.patrykandpatrick.vico"
+version = Versions.VICO
+
 subprojects.forEach { it.tasks.withType<Test>().configureEach { useJUnitPlatform() } }
