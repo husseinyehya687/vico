@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.data.CartesianLayerModel
-import com.hussenyehya.vico.core.common.inClip
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.data.CartesianLayerModel
+import com.hussenyehya.vico.common.inClip
 
 /** A base [CartesianLayer] implementation. */
 public abstract class BaseCartesianLayer<T : CartesianLayerModel> : CartesianLayer<T> {

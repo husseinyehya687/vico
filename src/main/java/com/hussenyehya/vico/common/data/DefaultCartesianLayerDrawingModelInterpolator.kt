@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.data
+package com.hussenyehya.vico.common.data
 
-import com.hussenyehya.vico.core.common.orZero
+import com.hussenyehya.vico.common.orZero
 import kotlin.math.max
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.ensureActive

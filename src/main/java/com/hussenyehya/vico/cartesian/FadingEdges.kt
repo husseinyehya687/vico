@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian
+package com.hussenyehya.vico.cartesian
 
 import android.animation.TimeInterpolator
 import android.graphics.LinearGradient
@@ -25,9 +25,9 @@ import android.graphics.RectF
 import android.graphics.Shader
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.compose.runtime.Immutable
-import com.hussenyehya.vico.core.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
-import com.hussenyehya.vico.core.common.Defaults.FADING_EDGE_WIDTH_DP
-import com.hussenyehya.vico.core.common.copyColor
+import com.hussenyehya.vico.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
+import com.hussenyehya.vico.common.Defaults.FADING_EDGE_WIDTH_DP
+import com.hussenyehya.vico.common.copyColor
 
 private const val FULL_ALPHA = 0xFF
 private const val FULL_FADE: Int = 0xFF000000.toInt()

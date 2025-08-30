@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian
+package com.hussenyehya.vico.cartesian
 
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.cartesian.data.CartesianChartModel
 
 /** Defines when an automatic scroll should be performed. */
 public fun interface AutoScrollCondition {

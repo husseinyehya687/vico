@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.cartesian.axis.Axis
-import com.hussenyehya.vico.core.common.orZero
+import com.hussenyehya.vico.cartesian.axis.Axis
+import com.hussenyehya.vico.common.orZero
 import kotlin.math.max
 import kotlin.math.min
 

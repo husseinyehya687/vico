@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.shader
+package com.hussenyehya.vico.common.shader
 
 import android.graphics.LinearGradient
 import android.graphics.Shader
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.common.DrawingContext
 import java.util.Objects
 
 /** @suppress */

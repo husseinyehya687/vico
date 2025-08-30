@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
 import android.graphics.Canvas
 import android.graphics.RectF
-import com.hussenyehya.vico.core.common.data.CacheStore
-import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.common.data.CacheStore
+import com.hussenyehya.vico.common.data.ExtraStore
 
 /** Holds data used for measuring and drawing. */
 public interface MeasuringContext {

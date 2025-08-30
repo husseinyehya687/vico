@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
 import kotlin.math.max
 import kotlin.math.min

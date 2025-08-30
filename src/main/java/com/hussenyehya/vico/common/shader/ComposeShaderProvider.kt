@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.shader
+package com.hussenyehya.vico.common.shader
 
 import android.graphics.BlendMode
 import android.graphics.ComposeShader
 import android.graphics.Shader
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.common.DrawingContext
 
 internal data class ComposeShaderProvider(
   private val first: ShaderProvider,

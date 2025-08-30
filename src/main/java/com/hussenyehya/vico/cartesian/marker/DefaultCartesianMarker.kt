@@ -14,32 +14,32 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.marker
+package com.hussenyehya.vico.cartesian.marker
 
 import android.graphics.RectF
 import android.text.Spannable
 import android.text.SpannableStringBuilder
 import android.text.style.ForegroundColorSpan
-import com.hussenyehya.vico.core.cartesian.CartesianChart
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
-import com.hussenyehya.vico.core.cartesian.data.CartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerMargins
-import com.hussenyehya.vico.core.common.Defaults
-import com.hussenyehya.vico.core.common.Position
-import com.hussenyehya.vico.core.common.appendCompat
-import com.hussenyehya.vico.core.common.averageOf
-import com.hussenyehya.vico.core.common.component.Component
-import com.hussenyehya.vico.core.common.component.LineComponent
-import com.hussenyehya.vico.core.common.component.ShapeComponent
-import com.hussenyehya.vico.core.common.component.TextComponent
-import com.hussenyehya.vico.core.common.data.CacheStore
-import com.hussenyehya.vico.core.common.doubled
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.orZero
-import com.hussenyehya.vico.core.common.shape.MarkerCorneredShape
+import com.hussenyehya.vico.cartesian.CartesianChart
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.cartesian.data.CartesianLayerModel
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerMargins
+import com.hussenyehya.vico.common.Defaults
+import com.hussenyehya.vico.common.Position
+import com.hussenyehya.vico.common.appendCompat
+import com.hussenyehya.vico.common.averageOf
+import com.hussenyehya.vico.common.component.Component
+import com.hussenyehya.vico.common.component.LineComponent
+import com.hussenyehya.vico.common.component.ShapeComponent
+import com.hussenyehya.vico.common.component.TextComponent
+import com.hussenyehya.vico.common.data.CacheStore
+import com.hussenyehya.vico.common.doubled
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.orZero
+import com.hussenyehya.vico.common.shape.MarkerCorneredShape
 import java.text.DecimalFormat
 import kotlin.math.ceil
 import kotlin.math.min

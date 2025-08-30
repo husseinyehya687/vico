@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
 
 /** Stores shared [CartesianLayer] dimensions. */
 public interface CartesianLayerDimensions {

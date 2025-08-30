@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.cartesian.CartesianChart
-import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModel
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.gcdWith
+import com.hussenyehya.vico.cartesian.CartesianChart
+import com.hussenyehya.vico.common.data.CartesianLayerDrawingModel
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.gcdWith
 
 /** Stores a [CartesianChart]’s data. */
 public class CartesianChartModel {

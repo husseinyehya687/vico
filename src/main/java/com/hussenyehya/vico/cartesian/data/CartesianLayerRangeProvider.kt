@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import androidx.compose.runtime.Immutable
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
-import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.common.data.ExtraStore
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.floor

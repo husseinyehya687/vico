@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
 import androidx.annotation.RestrictTo
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
-import com.hussenyehya.vico.core.common.data.CacheStore
-import com.hussenyehya.vico.core.common.shader.ShaderProvider
+import com.hussenyehya.vico.common.data.CacheStore
+import com.hussenyehya.vico.common.shader.ShaderProvider
 
 /**
  * Stores fill properties.

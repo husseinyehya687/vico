@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
 import android.graphics.RectF
-import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.common.data.ExtraStore
 import kotlin.math.max
 
 /**

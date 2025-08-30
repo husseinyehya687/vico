@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.cartesian.CartesianChart
-import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.cartesian.CartesianChart
+import com.hussenyehya.vico.cartesian.axis.Axis
 
 /** Stores a [CartesianChart]’s _x_ and _y_ ranges. */
 public interface CartesianChartRanges {

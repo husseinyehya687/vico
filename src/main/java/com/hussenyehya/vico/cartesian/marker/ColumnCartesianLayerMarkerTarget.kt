@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.marker
+package com.hussenyehya.vico.cartesian.marker
 
-import com.hussenyehya.vico.core.cartesian.data.ColumnCartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.layer.ColumnCartesianLayer
-import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.cartesian.data.ColumnCartesianLayerModel
+import com.hussenyehya.vico.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.common.component.LineComponent
 
 /** Houses information on a set of [ColumnCartesianLayer] columns to be marked. */
 public interface ColumnCartesianLayerMarkerTarget : CartesianMarker.Target {

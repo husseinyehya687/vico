@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian
+package com.hussenyehya.vico.cartesian
 
 import android.graphics.RectF
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerDimensions
 import kotlin.math.max
 import kotlin.math.min
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
-import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModel
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.gcdWith
+import com.hussenyehya.vico.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.common.data.CartesianLayerDrawingModel
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.gcdWith
 import kotlin.math.abs
 
 /** Stores a [CartesianLayer]’s data. */

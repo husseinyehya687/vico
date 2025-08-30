@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
-import com.hussenyehya.vico.core.cartesian.CartesianChart
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.data.CartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.data.MutableCartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.marker.CartesianMarker
-import com.hussenyehya.vico.core.common.data.MutableExtraStore
+import com.hussenyehya.vico.cartesian.CartesianChart
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.cartesian.data.CartesianLayerModel
+import com.hussenyehya.vico.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.cartesian.marker.CartesianMarker
+import com.hussenyehya.vico.common.data.MutableExtraStore
 
 /**
  * Visualizes data on a Cartesian plane. [CartesianLayer]s are combined and drawn by

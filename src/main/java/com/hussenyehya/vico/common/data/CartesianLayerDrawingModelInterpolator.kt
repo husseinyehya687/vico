@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.data
+package com.hussenyehya.vico.common.data
 
 /** Interpolates two [CartesianLayerDrawingModel]s. */
 public interface CartesianLayerDrawingModelInterpolator<

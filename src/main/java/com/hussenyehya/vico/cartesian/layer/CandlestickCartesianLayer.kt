@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
 import androidx.annotation.RestrictTo
 import androidx.compose.runtime.Stable
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.cartesian.axis.Axis
-import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
-import com.hussenyehya.vico.core.cartesian.data.CandlestickCartesianLayerDrawingModel
-import com.hussenyehya.vico.core.cartesian.data.CandlestickCartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.data.CandlestickCartesianLayerModel.Change
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.hussenyehya.vico.core.cartesian.data.MutableCartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.data.getSliceIndices
-import com.hussenyehya.vico.core.cartesian.getVisibleXRange
-import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer.Candle
-import com.hussenyehya.vico.core.cartesian.marker.CandlestickCartesianLayerMarkerTarget
-import com.hussenyehya.vico.core.cartesian.marker.CartesianMarker
-import com.hussenyehya.vico.core.common.Defaults
-import com.hussenyehya.vico.core.common.component.LineComponent
-import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModelInterpolator
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.data.MutableExtraStore
-import com.hussenyehya.vico.core.common.extractColor
-import com.hussenyehya.vico.core.common.getStart
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.axis.Axis
+import com.hussenyehya.vico.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.cartesian.data.CandlestickCartesianLayerDrawingModel
+import com.hussenyehya.vico.cartesian.data.CandlestickCartesianLayerModel
+import com.hussenyehya.vico.cartesian.data.CandlestickCartesianLayerModel.Change
+import com.hussenyehya.vico.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.cartesian.data.getSliceIndices
+import com.hussenyehya.vico.cartesian.getVisibleXRange
+import com.hussenyehya.vico.cartesian.layer.CandlestickCartesianLayer.Candle
+import com.hussenyehya.vico.cartesian.marker.CandlestickCartesianLayerMarkerTarget
+import com.hussenyehya.vico.cartesian.marker.CartesianMarker
+import com.hussenyehya.vico.common.Defaults
+import com.hussenyehya.vico.common.component.LineComponent
+import com.hussenyehya.vico.common.data.CartesianLayerDrawingModelInterpolator
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.data.MutableExtraStore
+import com.hussenyehya.vico.common.extractColor
+import com.hussenyehya.vico.common.getStart
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.shape.Shape
 import java.util.Objects
 import kotlin.math.max
 

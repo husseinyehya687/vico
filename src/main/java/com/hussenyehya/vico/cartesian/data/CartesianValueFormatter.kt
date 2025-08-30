@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import android.util.LruCache
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.cartesian.axis.Axis
-import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.axis.Axis
+import com.hussenyehya.vico.cartesian.axis.VerticalAxis
 import java.text.DecimalFormat
 import java.util.Locale
 

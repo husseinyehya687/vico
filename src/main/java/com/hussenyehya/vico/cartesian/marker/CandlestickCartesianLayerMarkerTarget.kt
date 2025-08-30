@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.marker
+package com.hussenyehya.vico.cartesian.marker
 
-import com.hussenyehya.vico.core.cartesian.data.CandlestickCartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.cartesian.data.CandlestickCartesianLayerModel
+import com.hussenyehya.vico.cartesian.layer.CandlestickCartesianLayer
 
 /**
  * Houses information on a [CandlestickCartesianLayer] candle to be marked.

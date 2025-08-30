@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.common.length
-import com.hussenyehya.vico.core.common.random
+import com.hussenyehya.vico.common.length
+import com.hussenyehya.vico.common.random
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.random.Random

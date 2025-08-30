@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.decoration
+package com.hussenyehya.vico.cartesian.decoration
 
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.axis.Axis
-import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
-import com.hussenyehya.vico.core.common.Position
-import com.hussenyehya.vico.core.common.component.LineComponent
-import com.hussenyehya.vico.core.common.component.TextComponent
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.getEnd
-import com.hussenyehya.vico.core.common.getStart
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.inBounds
-import com.hussenyehya.vico.core.common.unaryMinus
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.axis.Axis
+import com.hussenyehya.vico.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.common.Position
+import com.hussenyehya.vico.common.component.LineComponent
+import com.hussenyehya.vico.common.component.TextComponent
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.getEnd
+import com.hussenyehya.vico.common.getStart
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.inBounds
+import com.hussenyehya.vico.common.unaryMinus
 import java.text.DecimalFormat
 
 /**

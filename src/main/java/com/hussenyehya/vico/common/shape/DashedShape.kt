@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.shape
+package com.hussenyehya.vico.common.shape
 
 import android.graphics.Path
-import com.hussenyehya.vico.core.common.Defaults
-import com.hussenyehya.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.common.Defaults
+import com.hussenyehya.vico.common.MeasuringContext
 import kotlin.math.ceil
 
 /**

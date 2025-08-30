@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.marker
+package com.hussenyehya.vico.cartesian.marker
 
-import com.hussenyehya.vico.core.cartesian.data.LineCartesianLayerModel
-import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.cartesian.data.LineCartesianLayerModel
+import com.hussenyehya.vico.cartesian.layer.LineCartesianLayer
 
 /** Houses information on a set of [LineCartesianLayer] points to be marked. */
 public interface LineCartesianLayerMarkerTarget : CartesianMarker.Target {

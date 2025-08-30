@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
-import com.hussenyehya.vico.core.common.component.Component
-import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.common.component.Component
+import com.hussenyehya.vico.common.component.TextComponent
 
 /**
  * Defines the appearance of an item of a [Legend].

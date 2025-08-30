@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.component
+package com.hussenyehya.vico.common.component
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -28,22 +28,22 @@ import android.text.StaticLayout
 import android.text.TextPaint
 import android.text.TextUtils
 import androidx.compose.runtime.Immutable
-import com.hussenyehya.vico.core.common.Defaults
-import com.hussenyehya.vico.core.common.Defaults.TEXT_COMPONENT_LINE_COUNT
-import com.hussenyehya.vico.core.common.DrawingContext
-import com.hussenyehya.vico.core.common.Insets
-import com.hussenyehya.vico.core.common.MeasuringContext
-import com.hussenyehya.vico.core.common.Position
-import com.hussenyehya.vico.core.common.bounds
-import com.hussenyehya.vico.core.common.copy
-import com.hussenyehya.vico.core.common.data.CacheStore
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.heightWithSpacingAddition
-import com.hussenyehya.vico.core.common.piRad
-import com.hussenyehya.vico.core.common.rotate
-import com.hussenyehya.vico.core.common.staticLayout
-import com.hussenyehya.vico.core.common.translate
-import com.hussenyehya.vico.core.common.widestLineWidth
+import com.hussenyehya.vico.common.Defaults
+import com.hussenyehya.vico.common.Defaults.TEXT_COMPONENT_LINE_COUNT
+import com.hussenyehya.vico.common.DrawingContext
+import com.hussenyehya.vico.common.Insets
+import com.hussenyehya.vico.common.MeasuringContext
+import com.hussenyehya.vico.common.Position
+import com.hussenyehya.vico.common.bounds
+import com.hussenyehya.vico.common.copy
+import com.hussenyehya.vico.common.data.CacheStore
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.heightWithSpacingAddition
+import com.hussenyehya.vico.common.piRad
+import com.hussenyehya.vico.common.rotate
+import com.hussenyehya.vico.common.staticLayout
+import com.hussenyehya.vico.common.translate
+import com.hussenyehya.vico.common.widestLineWidth
 import kotlin.math.absoluteValue
 import kotlin.math.cos
 import kotlin.math.min

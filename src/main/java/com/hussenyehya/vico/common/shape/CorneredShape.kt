@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.shape
+package com.hussenyehya.vico.common.shape
 
 import android.graphics.Path
 import android.graphics.RectF
 import androidx.annotation.IntRange
 import androidx.annotation.RestrictTo
-import com.hussenyehya.vico.core.common.MeasuringContext
-import com.hussenyehya.vico.core.common.piRad
-import com.hussenyehya.vico.core.common.shape.CorneredShape.Corner
-import com.hussenyehya.vico.core.common.shape.CorneredShape.CornerTreatment
+import com.hussenyehya.vico.common.MeasuringContext
+import com.hussenyehya.vico.common.piRad
+import com.hussenyehya.vico.common.shape.CorneredShape.Corner
+import com.hussenyehya.vico.common.shape.CorneredShape.CornerTreatment
 import kotlin.math.absoluteValue
 
 /**

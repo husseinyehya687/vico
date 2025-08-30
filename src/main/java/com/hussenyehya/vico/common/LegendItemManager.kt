@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common
+package com.hussenyehya.vico.common
 
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.common.data.ExtraStore
 
 internal class LegendItemManager(
   private val items: AdditionScope<LegendItem>.(ExtraStore) -> Unit

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.axis
+package com.hussenyehya.vico.cartesian.axis
 
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
-import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.roundedToNearest
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.roundedToNearest
 import kotlin.math.ceil
 import kotlin.math.floor
 

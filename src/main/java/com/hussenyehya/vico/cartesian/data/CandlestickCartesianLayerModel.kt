@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
-import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
-import com.hussenyehya.vico.core.common.data.ExtraStore
-import com.hussenyehya.vico.core.common.rangeOfPair
+import com.hussenyehya.vico.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.common.data.ExtraStore
+import com.hussenyehya.vico.common.rangeOfPair
 
 /** Stores a [CandlestickCartesianLayer]’s data. */
 public class CandlestickCartesianLayerModel : CartesianLayerModel {

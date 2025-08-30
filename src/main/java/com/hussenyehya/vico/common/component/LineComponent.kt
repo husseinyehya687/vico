@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.common.component
+package com.hussenyehya.vico.common.component
 
 import android.graphics.RectF
-import com.hussenyehya.vico.core.common.Defaults
-import com.hussenyehya.vico.core.common.DrawingContext
-import com.hussenyehya.vico.core.common.Fill
-import com.hussenyehya.vico.core.common.Insets
-import com.hussenyehya.vico.core.common.MeasuringContext
-import com.hussenyehya.vico.core.common.half
-import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.common.Defaults
+import com.hussenyehya.vico.common.DrawingContext
+import com.hussenyehya.vico.common.Fill
+import com.hussenyehya.vico.common.Insets
+import com.hussenyehya.vico.common.MeasuringContext
+import com.hussenyehya.vico.common.half
+import com.hussenyehya.vico.common.shape.Shape
 
 /**
  * Draws lines.

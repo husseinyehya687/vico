@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.axis
+package com.hussenyehya.vico.cartesian.axis
 
 import android.graphics.RectF
 import androidx.compose.runtime.Immutable
-import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
-import com.hussenyehya.vico.core.common.MeasuringContext
-import com.hussenyehya.vico.core.common.component.LineComponent
-import com.hussenyehya.vico.core.common.component.TextComponent
-import com.hussenyehya.vico.core.common.orZero
-import com.hussenyehya.vico.core.common.setAll
+import com.hussenyehya.vico.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.common.MeasuringContext
+import com.hussenyehya.vico.common.component.LineComponent
+import com.hussenyehya.vico.common.component.TextComponent
+import com.hussenyehya.vico.common.orZero
+import com.hussenyehya.vico.common.setAll
 
 /**
  * A base [Axis] implementation. This is extended by [HorizontalAxis] and [VerticalAxis].

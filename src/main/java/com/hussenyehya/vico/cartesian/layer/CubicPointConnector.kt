@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.layer
+package com.hussenyehya.vico.cartesian.layer
 
 import android.graphics.Path
-import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.cartesian.CartesianDrawingContext
 import kotlin.math.abs
 
 internal data class CubicPointConnector(private val curvature: Float) :

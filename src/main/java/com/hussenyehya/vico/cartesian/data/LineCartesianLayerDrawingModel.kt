@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian.data
+package com.hussenyehya.vico.cartesian.data
 
-import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
-import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModel
-import com.hussenyehya.vico.core.common.lerp
-import com.hussenyehya.vico.core.common.orZero
+import com.hussenyehya.vico.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.common.data.CartesianLayerDrawingModel
+import com.hussenyehya.vico.common.lerp
+import com.hussenyehya.vico.common.orZero
 
 /** Houses [LineCartesianLayer] drawing information. [opacity] is the lines’ opacity. */
 public class LineCartesianLayerDrawingModel(

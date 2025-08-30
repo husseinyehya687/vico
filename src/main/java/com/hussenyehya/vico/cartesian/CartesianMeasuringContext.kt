@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.hussenyehya.vico.core.cartesian
+package com.hussenyehya.vico.cartesian
 
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
-import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
-import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerPadding
-import com.hussenyehya.vico.core.common.MeasuringContext
-import com.hussenyehya.vico.core.common.Point
+import com.hussenyehya.vico.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.cartesian.layer.CartesianLayerPadding
+import com.hussenyehya.vico.common.MeasuringContext
+import com.hussenyehya.vico.common.Point
 
 /** A [MeasuringContext] extension with [CartesianChart]-specific data. */
 public interface CartesianMeasuringContext : MeasuringContext {
