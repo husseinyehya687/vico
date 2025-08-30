@@ -30,7 +30,7 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Vico"
+rootProject.name = "vico"
 
 include(
   "sample:app",
