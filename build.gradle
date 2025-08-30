@@ -2,24 +2,19 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
+        classpath 'com.android.tools.build:gradle:4.2.2'
     }
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'org.jetbrains.kotlin.android'
-apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
+repositories {
+    google()
+    mavenCentral()
+}
 
 android {
     compileSdkVersion 33
@@ -27,14 +22,6 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 1
-        versionName "3.0.4"
-    }
-    
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
     }
     
     compileOptions {
@@ -42,115 +29,13 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-    
-    buildFeatures {
-        compose true
-    }
-    
     lintOptions {
         abortOnError false
-        checkReleaseBuilds false
-    }
-    
-    defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 33
-        versionCode 1
-        versionName "3.0.6"
-        
-        consumerProguardFiles "consumer-rules.pro"
-    }
-    
-    packagingOptions {
-        exclude 'META-INF/DEPENDENCIES'
-        exclude 'META-INF/LICENSE'
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE'
-        exclude 'META-INF/NOTICE.txt'
     }
 }
 
 dependencies {
-    // Core Android dependencies
-    api 'androidx.annotation:annotation:1.6.0'
-    api 'androidx.core:core-ktx:1.12.0'
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
-    
-    // Compose BOM for version alignment
-    api platform('androidx.compose:compose-bom:2023.10.01')
-    
-    // Compose dependencies
-    api 'androidx.compose.ui:ui'
-    api 'androidx.compose.ui:ui-graphics' 
-    api 'androidx.compose.foundation:foundation'
-    api 'androidx.compose.runtime:runtime'
-    api 'androidx.compose.material:material'
-    api 'androidx.compose.material3:material3'
-    
-    // Views dependencies
-    api 'androidx.appcompat:appcompat:1.6.1'
-    
-    // Internal implementation dependencies
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.9.10'
+    implementation 'androidx.annotation:annotation:1.6.0'
 }
 
-task sourceJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier "sources"
-}
-
-afterEvaluate {
-    publishing {
-        repositories {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/husseinyehya687/vico")
-                credentials {
-                    username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                    password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
-                }
-            }
-        }
-        
-        publications {
-            release(MavenPublication) {
-                from components.release
-                artifact sourceJar
-                
-                groupId = 'com.hussenyehya.vico'
-                artifactId = 'vico'
-                version = '3.0.6'
-                
-                pom {
-                    name = 'Vico Chart Library'
-                    description = 'A powerful and extensible Android charting library with Core, Compose, and Views modules'
-                    url = 'https://github.com/husseinyehya687/vico'
-                    
-                    licenses {
-                        license {
-                            name = 'The Apache License, Version 2.0'
-                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                        }
-                    }
-                    
-                    developers {
-                        developer {
-                            id = 'husseinyehya687'
-                            name = 'Hussein Yehya'
-                            email = 'hussenyehya687@example.com'
-                        }
-                    }
-                    
-                    scm {
-                        connection = 'scm:git:git://github.com/husseinyehya687/vico.git'
-                        developerConnection = 'scm:git:ssh://github.com/husseinyehya687/vico.git'
-                        url = 'https://github.com/husseinyehya687/vico'
-                    }
-                }
-            }
-        }
-    }
-}
+group = 'com.github.husseinyehya687'
