@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 enum class UIFramework(val label: String) {
   JetpackCompose("JC"),

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -24,16 +24,16 @@ import android.text.Layout
 import android.text.TextUtils
 import androidx.annotation.StyleableRes
 import androidx.core.content.res.ResourcesCompat
-import com.patrykandpatrick.vico.core.common.Defaults.AXIS_LABEL_HORIZONTAL_PADDING
-import com.patrykandpatrick.vico.core.common.Defaults.AXIS_LABEL_VERTICAL_PADDING
-import com.patrykandpatrick.vico.core.common.Defaults.TEXT_COMPONENT_LINE_COUNT
-import com.patrykandpatrick.vico.core.common.Defaults.TEXT_COMPONENT_TEXT_SIZE
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.firstNonNegativeOf
-import com.patrykandpatrick.vico.core.common.orZero
-import com.patrykandpatrick.vico.views.R
-import com.patrykandpatrick.vico.views.common.defaultColors
+import com.hussenyehya.vico.core.common.Defaults.AXIS_LABEL_HORIZONTAL_PADDING
+import com.hussenyehya.vico.core.common.Defaults.AXIS_LABEL_VERTICAL_PADDING
+import com.hussenyehya.vico.core.common.Defaults.TEXT_COMPONENT_LINE_COUNT
+import com.hussenyehya.vico.core.common.Defaults.TEXT_COMPONENT_TEXT_SIZE
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.firstNonNegativeOf
+import com.hussenyehya.vico.core.common.orZero
+import com.hussenyehya.vico.views.R
+import com.hussenyehya.vico.views.common.defaultColors
 
 private const val FONT_WEIGHT_NORMAL = 400
 

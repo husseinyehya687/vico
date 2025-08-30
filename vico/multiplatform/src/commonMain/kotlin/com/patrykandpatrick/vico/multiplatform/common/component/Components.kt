@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.component
+package com.hussenyehya.vico.multiplatform.common.component
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -23,10 +23,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.shape.Shape
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.shape.Shape
 
 /** Creates and remembers a [LineComponent]. */
 @Composable

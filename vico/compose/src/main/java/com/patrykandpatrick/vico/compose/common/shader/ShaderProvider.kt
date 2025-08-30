@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common.shader
+package com.hussenyehya.vico.compose.common.shader
 
 import android.graphics.Shader
 import androidx.compose.ui.geometry.Size
@@ -24,11 +24,11 @@ import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.Dp
 import androidx.core.graphics.translationMatrix
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.shader.CachingShaderProvider
-import com.patrykandpatrick.vico.core.common.shader.LinearGradientShaderProvider
-import com.patrykandpatrick.vico.core.common.shader.ShaderProvider
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.shader.CachingShaderProvider
+import com.hussenyehya.vico.core.common.shader.LinearGradientShaderProvider
+import com.hussenyehya.vico.core.common.shader.ShaderProvider
 
 /** A [Dp] version of [ShaderProvider.component]. */
 public fun ShaderProvider.Companion.component(

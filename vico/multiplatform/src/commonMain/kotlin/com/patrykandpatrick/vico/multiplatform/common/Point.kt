@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import kotlin.jvm.JvmInline
 

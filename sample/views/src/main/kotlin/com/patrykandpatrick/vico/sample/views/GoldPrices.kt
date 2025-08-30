@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.views
+package com.hussenyehya.vico.sample.views
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidViewBinding
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.candlestickSeries
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.sample.views.databinding.GoldPricesBinding
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.candlestickSeries
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.sample.views.databinding.GoldPricesBinding
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.Locale

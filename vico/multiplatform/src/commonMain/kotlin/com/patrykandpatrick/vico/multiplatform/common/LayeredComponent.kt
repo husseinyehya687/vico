@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
-import com.patrykandpatrick.vico.multiplatform.common.component.Component
+import com.hussenyehya.vico.multiplatform.common.component.Component
 
 /**
  * Draws two [Component]s on top of each other.

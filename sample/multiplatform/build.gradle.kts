@@ -25,7 +25,7 @@ plugins {
 
 android {
   configure()
-  namespace = "com.patrykandpatrick.vico.sample.multiplatform"
+  namespace = "com.hussenyehya.vico.sample.multiplatform"
 }
 
 kotlin {

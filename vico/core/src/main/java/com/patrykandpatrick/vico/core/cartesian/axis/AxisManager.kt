@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.axis
+package com.hussenyehya.vico.core.cartesian.axis
 
 import android.graphics.RectF
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerMargins
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerMargins
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 

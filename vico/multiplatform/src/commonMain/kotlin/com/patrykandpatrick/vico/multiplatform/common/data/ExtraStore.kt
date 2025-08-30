@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.data
+package com.hussenyehya.vico.multiplatform.common.data
 
 /** Houses auxiliary data. */
 @Suppress("UNCHECKED_CAST")

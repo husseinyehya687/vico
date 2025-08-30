@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.layer
+package com.hussenyehya.vico.core.cartesian.layer
 
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
 
 /**
  * Enables a [CartesianChart] component to make room for itself around the [CartesianLayer] area.

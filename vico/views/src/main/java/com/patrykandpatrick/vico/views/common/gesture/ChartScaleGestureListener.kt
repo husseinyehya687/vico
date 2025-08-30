@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.gesture
+package com.hussenyehya.vico.views.common.gesture
 
 import android.graphics.RectF
 import android.view.ScaleGestureDetector

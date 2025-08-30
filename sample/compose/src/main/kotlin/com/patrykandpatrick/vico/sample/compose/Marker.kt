@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.compose
+package com.hussenyehya.vico.sample.compose
 
 import android.text.Layout
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberAxisGuidelineComponent
-import com.patrykandpatrick.vico.compose.cartesian.marker.rememberDefaultCartesianMarker
-import com.patrykandpatrick.vico.compose.common.component.fixed
-import com.patrykandpatrick.vico.compose.common.component.rememberShapeComponent
-import com.patrykandpatrick.vico.compose.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.compose.common.fill
-import com.patrykandpatrick.vico.compose.common.insets
-import com.patrykandpatrick.vico.compose.common.shape.markerCorneredShape
-import com.patrykandpatrick.vico.core.cartesian.marker.CartesianMarker
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.LayeredComponent
-import com.patrykandpatrick.vico.core.common.component.ShapeComponent
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.shape.CorneredShape
+import com.hussenyehya.vico.compose.cartesian.axis.rememberAxisGuidelineComponent
+import com.hussenyehya.vico.compose.cartesian.marker.rememberDefaultCartesianMarker
+import com.hussenyehya.vico.compose.common.component.fixed
+import com.hussenyehya.vico.compose.common.component.rememberShapeComponent
+import com.hussenyehya.vico.compose.common.component.rememberTextComponent
+import com.hussenyehya.vico.compose.common.fill
+import com.hussenyehya.vico.compose.common.insets
+import com.hussenyehya.vico.compose.common.shape.markerCorneredShape
+import com.hussenyehya.vico.core.cartesian.marker.CartesianMarker
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.LayeredComponent
+import com.hussenyehya.vico.core.common.component.ShapeComponent
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.shape.CorneredShape
 
 @Composable
 internal fun rememberMarker(

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.ui.geometry.Rect
-import com.patrykandpatrick.vico.multiplatform.cartesian.Scroll.Absolute
-import com.patrykandpatrick.vico.multiplatform.cartesian.Scroll.Relative
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.cartesian.Scroll.Absolute
+import com.hussenyehya.vico.multiplatform.cartesian.Scroll.Relative
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
 
 /** Represents a [CartesianChart] scroll value or delta. */
 public sealed interface Scroll {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.component
+package com.hussenyehya.vico.core.common.component
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -28,22 +28,22 @@ import android.text.StaticLayout
 import android.text.TextPaint
 import android.text.TextUtils
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Defaults.TEXT_COMPONENT_LINE_COUNT
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.MeasuringContext
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.bounds
-import com.patrykandpatrick.vico.core.common.copy
-import com.patrykandpatrick.vico.core.common.data.CacheStore
-import com.patrykandpatrick.vico.core.common.half
-import com.patrykandpatrick.vico.core.common.heightWithSpacingAddition
-import com.patrykandpatrick.vico.core.common.piRad
-import com.patrykandpatrick.vico.core.common.rotate
-import com.patrykandpatrick.vico.core.common.staticLayout
-import com.patrykandpatrick.vico.core.common.translate
-import com.patrykandpatrick.vico.core.common.widestLineWidth
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Defaults.TEXT_COMPONENT_LINE_COUNT
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.bounds
+import com.hussenyehya.vico.core.common.copy
+import com.hussenyehya.vico.core.common.data.CacheStore
+import com.hussenyehya.vico.core.common.half
+import com.hussenyehya.vico.core.common.heightWithSpacingAddition
+import com.hussenyehya.vico.core.common.piRad
+import com.hussenyehya.vico.core.common.rotate
+import com.hussenyehya.vico.core.common.staticLayout
+import com.hussenyehya.vico.core.common.translate
+import com.hussenyehya.vico.core.common.widestLineWidth
 import kotlin.math.absoluteValue
 import kotlin.math.cos
 import kotlin.math.min

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.component
+package com.hussenyehya.vico.core.common.component
 
 import android.graphics.Paint
 import android.graphics.Path
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.alpha
-import com.patrykandpatrick.vico.core.common.half
-import com.patrykandpatrick.vico.core.common.shape.Shape
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.alpha
+import com.hussenyehya.vico.core.common.half
+import com.hussenyehya.vico.core.common.shape.Shape
 
 /**
  * Draws [Shape]s.

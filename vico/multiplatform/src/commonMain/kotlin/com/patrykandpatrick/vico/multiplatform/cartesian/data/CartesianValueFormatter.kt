@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.Axis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.common.format
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.axis.Axis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.common.format
 
 /** Formats values for display. */
 public fun interface CartesianValueFormatter {

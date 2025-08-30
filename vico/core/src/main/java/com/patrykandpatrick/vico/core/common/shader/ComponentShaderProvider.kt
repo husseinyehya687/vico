@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.shader
+package com.hussenyehya.vico.core.common.shader
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
 import android.graphics.Canvas
 import android.graphics.Shader
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.half
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.half
 
 internal data class ComponentShaderProvider(
   private val component: Component,

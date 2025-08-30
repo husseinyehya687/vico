@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.layer
+package com.hussenyehya.vico.multiplatform.cartesian.layer
 
 /** An implementation of [CartesianLayerDimensions] whose every property is mutable. */
 public class MutableCartesianLayerDimensions(

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./gradlew:*)"
+      "Bash(./gradlew:*)",
+      "Read(C:\\Users\\H\\.m2\\repository\\com\\hussenyehya\\vico\\core\\3.0.0/**)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

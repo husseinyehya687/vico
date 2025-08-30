@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common
+package com.hussenyehya.vico.compose.common
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.Insets
 
 /** Creates an [Insets] instance. */
 public fun insets(all: Dp = 0.dp): Insets = Insets(all.value)

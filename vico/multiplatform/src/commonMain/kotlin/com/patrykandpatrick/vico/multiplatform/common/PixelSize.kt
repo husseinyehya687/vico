@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
-import com.patrykandpatrick.vico.multiplatform.common.Defaults.TEXT_COMPONENT_TEXT_SIZE
+import com.hussenyehya.vico.multiplatform.common.Defaults.TEXT_COMPONENT_TEXT_SIZE
 
 internal fun TextUnit.pixelSize() =
   when (type) {

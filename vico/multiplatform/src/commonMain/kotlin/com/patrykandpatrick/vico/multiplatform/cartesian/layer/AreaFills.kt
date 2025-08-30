@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.layer
+package com.hussenyehya.vico.multiplatform.cartesian.layer
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.withSave
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.Axis
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.getEnd
-import com.patrykandpatrick.vico.multiplatform.common.getStart
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.axis.Axis
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.getEnd
+import com.hussenyehya.vico.multiplatform.common.getStart
 
 internal abstract class BaseAreaFill(open val splitY: (ExtraStore) -> Number) :
   LineCartesianLayer.AreaFill {

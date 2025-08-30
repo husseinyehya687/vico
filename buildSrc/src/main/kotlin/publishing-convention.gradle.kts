@@ -20,11 +20,11 @@ plugins { id("com.vanniktech.maven.publish") }
 
 mavenPublishing {
   publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
-  signAllPublications()
+  // signAllPublications() // Temporarily disabled for local publishing
   pom {
     name = "Vico"
     description = "A powerful and extensible multiplatform chart library."
-    url = "https://github.com/patrykandpatrick/vico"
+    url = "https://github.com/hussenyehya/vico"
     licenses {
       license {
         name = "The Apache License, Version 2.0"
@@ -32,9 +32,9 @@ mavenPublishing {
       }
     }
     scm {
-      connection = "scm:git:git://github.com/patrykandpatrick/vico.git"
-      developerConnection = "scm:git:ssh://github.com/patrykandpatrick/vico.git"
-      url = "https://github.com/patrykandpatrick/vico"
+      connection = "scm:git:git://github.com/hussenyehya/vico.git"
+      developerConnection = "scm:git:ssh://github.com/hussenyehya/vico.git"
+      url = "https://github.com/hussenyehya/vico"
     }
     developers {
       developer {

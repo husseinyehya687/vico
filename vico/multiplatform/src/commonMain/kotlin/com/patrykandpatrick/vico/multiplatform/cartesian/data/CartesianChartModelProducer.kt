@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.data.MutableExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.MutableExtraStore
 import kotlin.coroutines.AbstractCoroutineContextElement
 import kotlin.coroutines.CoroutineContext
 import kotlinx.coroutines.CoroutineDispatcher

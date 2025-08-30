@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.axis
+package com.hussenyehya.vico.multiplatform.cartesian.axis
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Inside
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Outside
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis.ItemPlacer.Companion.count
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis.ItemPlacer.Companion.step
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.formatForAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerMargins
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.HorizontalCartesianLayerMargins
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.Position
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.half
-import com.patrykandpatrick.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Inside
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Outside
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis.ItemPlacer.Companion.count
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis.ItemPlacer.Companion.step
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.multiplatform.cartesian.data.formatForAxis
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerMargins
+import com.hussenyehya.vico.multiplatform.cartesian.layer.HorizontalCartesianLayerMargins
+import com.hussenyehya.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.Position
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.common.orZero
 import kotlin.math.ceil
 import kotlin.math.max
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common
+package com.hussenyehya.vico.compose.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import com.patrykandpatrick.vico.core.common.ValueWrapper
+import com.hussenyehya.vico.core.common.ValueWrapper
 
 @Composable
 internal fun <T> rememberWrappedValue(value: T): ValueWrapper<T> =

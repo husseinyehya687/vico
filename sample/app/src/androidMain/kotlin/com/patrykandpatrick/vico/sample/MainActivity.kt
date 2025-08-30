@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

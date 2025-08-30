@@ -142,7 +142,7 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             from(components["release"])
-            groupId = "com.patrykandpatrick.vico"
+            groupId = "com.hussenyehya.vico"
             artifactId = "vico"           // Single artifact name
             version = "1.0.0"
         }
@@ -227,9 +227,9 @@ You'll know everything is working when:
 2. **Import resolves without errors** in Android Studio
 3. **All Vico modules are accessible** with single import:
    ```kotlin
-   import com.patrykandpatrick.vico.core.cartesian.layer.ColumnCartesianLayer
-   import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
-   import com.patrykandpatrick.vico.compose.cartesian.layer.rememberColumnCartesianLayer
+   import com.hussenyehya.vico.core.cartesian.layer.ColumnCartesianLayer
+   import com.hussenyehya.vico.compose.cartesian.CartesianChartHost
+   import com.hussenyehya.vico.compose.cartesian.layer.rememberColumnCartesianLayer
    ```
 4. **Column click functionality works** in test app
 5. **Build gradle sync succeeds** without warnings

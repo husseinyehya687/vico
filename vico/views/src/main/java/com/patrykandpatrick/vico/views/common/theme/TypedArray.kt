@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -22,7 +22,7 @@ import android.graphics.Color
 import android.util.TypedValue
 import androidx.annotation.ColorInt
 import androidx.annotation.StyleableRes
-import com.patrykandpatrick.vico.views.common.density
+import com.hussenyehya.vico.views.common.density
 
 private val typeCompatTypedValue = TypedValue()
 private val rawValueTypedValue = TypedValue()

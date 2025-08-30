@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.foundation.Canvas
@@ -33,24 +33,24 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.MutableCartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.collectAsState
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.component1
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.component2
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.component3
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.component4
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.defaultCartesianDiffAnimationSpec
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.toImmutable
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.common.Defaults.CHART_HEIGHT
-import com.patrykandpatrick.vico.multiplatform.common.Point
-import com.patrykandpatrick.vico.multiplatform.common.ValueWrapper
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.getValue
-import com.patrykandpatrick.vico.multiplatform.common.setValue
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.data.collectAsState
+import com.hussenyehya.vico.multiplatform.cartesian.data.component1
+import com.hussenyehya.vico.multiplatform.cartesian.data.component2
+import com.hussenyehya.vico.multiplatform.cartesian.data.component3
+import com.hussenyehya.vico.multiplatform.cartesian.data.component4
+import com.hussenyehya.vico.multiplatform.cartesian.data.defaultCartesianDiffAnimationSpec
+import com.hussenyehya.vico.multiplatform.cartesian.data.toImmutable
+import com.hussenyehya.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.common.Defaults.CHART_HEIGHT
+import com.hussenyehya.vico.multiplatform.common.Point
+import com.hussenyehya.vico.multiplatform.common.ValueWrapper
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.getValue
+import com.hussenyehya.vico.multiplatform.common.setValue
 import kotlinx.coroutines.launch
 
 /**

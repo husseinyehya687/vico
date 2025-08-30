@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
 
 @Immutable
 internal class CartesianChartData(

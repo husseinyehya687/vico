@@ -23,7 +23,7 @@ plugins {
 android {
   configure()
   kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8.toString() }
-  namespace = "com.patrykandpatrick.vico.sample.compose"
+  namespace = "com.hussenyehya.vico.sample.compose"
 }
 
 dependencies {

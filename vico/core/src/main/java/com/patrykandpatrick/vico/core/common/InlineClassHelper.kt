@@ -15,7 +15,7 @@
  */
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.patrykandpatrick.vico.core.common
+package com.hussenyehya.vico.core.common
 
 /** Packs two [Float] values into one [Long] value for use in inline classes. */
 internal inline fun packFloats(val1: Float, val2: Float): Long {

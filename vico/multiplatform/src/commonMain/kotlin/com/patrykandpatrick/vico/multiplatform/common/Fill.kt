@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.toArgb
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
 
 /**
  * Stores fill properties.

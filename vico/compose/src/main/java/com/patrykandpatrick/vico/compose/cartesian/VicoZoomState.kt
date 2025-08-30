@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian
+package com.hussenyehya.vico.compose.cartesian
 
 import android.graphics.RectF
 import androidx.compose.runtime.Composable
@@ -24,13 +24,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.Scroll
-import com.patrykandpatrick.vico.core.cartesian.Zoom
-import com.patrykandpatrick.vico.core.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.core.cartesian.layer.scale
-import com.patrykandpatrick.vico.core.common.Defaults
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.Scroll
+import com.hussenyehya.vico.core.cartesian.Zoom
+import com.hussenyehya.vico.core.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.core.cartesian.layer.scale
+import com.hussenyehya.vico.core.common.Defaults
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 

@@ -15,7 +15,7 @@
  */
 @file:Suppress("DeprecatedCallableAddReplaceWith")
 
-package com.patrykandpatrick.vico.compose.common.component
+package com.hussenyehya.vico.compose.common.component
 
 import android.graphics.Typeface
 import android.text.Layout
@@ -28,16 +28,16 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.compose.common.pixelSize
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.Shadow
-import com.patrykandpatrick.vico.core.common.component.ShapeComponent
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.shape.Shape
+import com.hussenyehya.vico.compose.common.pixelSize
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.Shadow
+import com.hussenyehya.vico.core.common.component.ShapeComponent
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.shape.Shape
 
 /** Creates and remembers a [LineComponent]. */
 @Composable

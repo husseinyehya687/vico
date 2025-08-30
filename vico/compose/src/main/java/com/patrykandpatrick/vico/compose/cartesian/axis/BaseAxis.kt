@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.axis
+package com.hussenyehya.vico.compose.cartesian.axis
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.cartesian.axis.BaseAxis
+import com.hussenyehya.vico.core.cartesian.axis.BaseAxis
 
 /** Creates a [BaseAxis.Size.Auto] instance. */
 public fun BaseAxis.Size.Companion.auto(

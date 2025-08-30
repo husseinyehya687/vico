@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.shader
+package com.hussenyehya.vico.core.common.shader
 
 import android.graphics.Shader
 import androidx.annotation.RestrictTo
-import com.patrykandpatrick.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.DrawingContext
 
 /** @suppress */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

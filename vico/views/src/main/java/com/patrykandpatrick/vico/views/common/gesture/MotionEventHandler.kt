@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.gesture
+package com.hussenyehya.vico.views.common.gesture
 
 import android.annotation.SuppressLint
 import android.view.MotionEvent
 import android.view.VelocityTracker
 import android.widget.OverScroller
-import com.patrykandpatrick.vico.core.cartesian.Scroll
-import com.patrykandpatrick.vico.core.common.Point
-import com.patrykandpatrick.vico.views.cartesian.ScrollHandler
-import com.patrykandpatrick.vico.views.common.fling
-import com.patrykandpatrick.vico.views.common.point
+import com.hussenyehya.vico.core.cartesian.Scroll
+import com.hussenyehya.vico.core.common.Point
+import com.hussenyehya.vico.views.cartesian.ScrollHandler
+import com.hussenyehya.vico.views.common.fling
+import com.hussenyehya.vico.views.common.point
 import kotlin.math.abs
 
 internal class MotionEventHandler(

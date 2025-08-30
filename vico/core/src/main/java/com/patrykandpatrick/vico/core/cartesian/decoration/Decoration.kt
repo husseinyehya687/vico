@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.decoration
+package com.hussenyehya.vico.core.cartesian.decoration
 
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
 
 /**
  * A [Decoration] presents additional information on a [CartesianChart].

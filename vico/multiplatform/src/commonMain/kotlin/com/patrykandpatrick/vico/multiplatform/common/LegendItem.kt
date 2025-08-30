@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import androidx.compose.ui.unit.Dp
-import com.patrykandpatrick.vico.multiplatform.common.component.Component
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.component.Component
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
 
 /**
  * Defines the appearance of an item of a [Legend].

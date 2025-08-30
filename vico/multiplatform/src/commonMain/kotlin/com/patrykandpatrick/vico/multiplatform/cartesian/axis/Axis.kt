@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.axis
+package com.hussenyehya.vico.multiplatform.cartesian.axis
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.geometry.Rect
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChart
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerMarginUpdater
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.common.Bounded
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChart
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerMarginUpdater
+import com.hussenyehya.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.common.Bounded
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
 
 /** Draws an axis. */
 @Immutable

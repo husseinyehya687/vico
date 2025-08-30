@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.compose
+package com.hussenyehya.vico.sample.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberBottom
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberStart
-import com.patrykandpatrick.vico.compose.cartesian.layer.rememberColumnCartesianLayer
-import com.patrykandpatrick.vico.compose.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.columnSeries
+import com.hussenyehya.vico.compose.cartesian.CartesianChartHost
+import com.hussenyehya.vico.compose.cartesian.axis.rememberBottom
+import com.hussenyehya.vico.compose.cartesian.axis.rememberStart
+import com.hussenyehya.vico.compose.cartesian.layer.rememberColumnCartesianLayer
+import com.hussenyehya.vico.compose.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.columnSeries
 import kotlinx.coroutines.runBlocking
 
 @Composable

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.multiplatform
+package com.hussenyehya.vico.sample.multiplatform
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -22,19 +22,19 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.columnSeries
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.lineSeries
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberLineCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberLineComponent
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChartHost
+import com.hussenyehya.vico.multiplatform.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.multiplatform.cartesian.data.columnSeries
+import com.hussenyehya.vico.multiplatform.cartesian.data.lineSeries
+import com.hussenyehya.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberLineCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.component.rememberLineComponent
 
 @Composable
 fun ComposeMultiplatformBasicComboChart(modifier: Modifier = Modifier) {

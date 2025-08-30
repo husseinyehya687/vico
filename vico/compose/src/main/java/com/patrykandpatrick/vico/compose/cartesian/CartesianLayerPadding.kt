@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian
+package com.hussenyehya.vico.compose.cartesian
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerPadding
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerPadding
 
 /** Creates a [CartesianLayerPadding] instance. */
 public fun cartesianLayerPadding(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.shape
+package com.hussenyehya.vico.multiplatform.common.shape
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.geometry.Offset
@@ -24,7 +24,7 @@ import androidx.compose.ui.graphics.Outline
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.LayoutDirection
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
 
 /** Defines a shape. */
 @Immutable
@@ -56,7 +56,7 @@ public fun interface Shape {
 
 /**
  * Converts this [androidx.compose.ui.graphics.Shape] to an instance of
- * [com.patrykandpatrick.vico.multiplatform.common.shape.Shape].
+ * [com.hussenyehya.vico.multiplatform.common.shape.Shape].
  */
 public fun androidx.compose.ui.graphics.Shape.toVicoShape(): Shape =
   Shape { context, path, left, top, right, bottom ->

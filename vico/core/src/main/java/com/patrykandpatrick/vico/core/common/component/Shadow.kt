@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.component
+package com.hussenyehya.vico.core.common.component
 
 import android.graphics.Paint
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.MeasuringContext
 
 /**
  * Stores shadow properties.

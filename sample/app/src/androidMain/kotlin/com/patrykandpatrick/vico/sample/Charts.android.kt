@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeAITestScores
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeBasicColumnChart
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeBasicComboChart
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeBasicLineChart
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeDailyDigitalMediaUse
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeElectricCarSales
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeGoldPrices
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeRockMetalRatios
-import com.patrykandpatrick.vico.sample.compose.JetpackComposeTemperatureAnomalies
-import com.patrykandpatrick.vico.sample.views.ViewAITestScores
-import com.patrykandpatrick.vico.sample.views.ViewBasicColumnChart
-import com.patrykandpatrick.vico.sample.views.ViewBasicComboChart
-import com.patrykandpatrick.vico.sample.views.ViewBasicLineChart
-import com.patrykandpatrick.vico.sample.views.ViewDailyDigitalMediaUse
-import com.patrykandpatrick.vico.sample.views.ViewElectricCarSales
-import com.patrykandpatrick.vico.sample.views.ViewGoldPrices
-import com.patrykandpatrick.vico.sample.views.ViewRockMetalRatios
-import com.patrykandpatrick.vico.sample.views.ViewTemperatureAnomalies
+import com.hussenyehya.vico.sample.compose.JetpackComposeAITestScores
+import com.hussenyehya.vico.sample.compose.JetpackComposeBasicColumnChart
+import com.hussenyehya.vico.sample.compose.JetpackComposeBasicComboChart
+import com.hussenyehya.vico.sample.compose.JetpackComposeBasicLineChart
+import com.hussenyehya.vico.sample.compose.JetpackComposeDailyDigitalMediaUse
+import com.hussenyehya.vico.sample.compose.JetpackComposeElectricCarSales
+import com.hussenyehya.vico.sample.compose.JetpackComposeGoldPrices
+import com.hussenyehya.vico.sample.compose.JetpackComposeRockMetalRatios
+import com.hussenyehya.vico.sample.compose.JetpackComposeTemperatureAnomalies
+import com.hussenyehya.vico.sample.views.ViewAITestScores
+import com.hussenyehya.vico.sample.views.ViewBasicColumnChart
+import com.hussenyehya.vico.sample.views.ViewBasicComboChart
+import com.hussenyehya.vico.sample.views.ViewBasicLineChart
+import com.hussenyehya.vico.sample.views.ViewDailyDigitalMediaUse
+import com.hussenyehya.vico.sample.views.ViewElectricCarSales
+import com.hussenyehya.vico.sample.views.ViewGoldPrices
+import com.hussenyehya.vico.sample.views.ViewRockMetalRatios
+import com.hussenyehya.vico.sample.views.ViewTemperatureAnomalies
 
 actual val Charts.overridden: LinkedHashMap<UIFramework, List<Chart>>?
   get() =

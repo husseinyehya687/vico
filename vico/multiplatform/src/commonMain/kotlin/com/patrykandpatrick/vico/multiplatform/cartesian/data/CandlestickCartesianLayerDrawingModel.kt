@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.common.data.CartesianLayerDrawingModel
-import com.patrykandpatrick.vico.multiplatform.common.lerp
-import com.patrykandpatrick.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.multiplatform.common.data.CartesianLayerDrawingModel
+import com.hussenyehya.vico.multiplatform.common.lerp
+import com.hussenyehya.vico.multiplatform.common.orZero
 
 /**
  * Houses drawing information for a [CandlestickCartesianLayer]. [opacity] is the columns’ opacity.

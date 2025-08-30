@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.LayoutDirection
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerPadding
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
-import com.patrykandpatrick.vico.multiplatform.common.Point
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerPadding
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.common.Point
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
 
 internal class MutableCartesianMeasuringContext(
   override var canvasSize: Size,

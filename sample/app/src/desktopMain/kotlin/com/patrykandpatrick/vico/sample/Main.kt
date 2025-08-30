@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application

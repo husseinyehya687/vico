@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.axis
+package com.hussenyehya.vico.core.cartesian.axis
 
 import androidx.annotation.RestrictTo
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Inside
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Outside
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.formatForAxis
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerDimensions
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerMargins
-import com.patrykandpatrick.vico.core.cartesian.layer.HorizontalCartesianLayerMargins
-import com.patrykandpatrick.vico.core.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.half
-import com.patrykandpatrick.vico.core.common.orZero
-import com.patrykandpatrick.vico.core.common.translate
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Inside
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis.HorizontalLabelPosition.Outside
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.formatForAxis
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerMargins
+import com.hussenyehya.vico.core.cartesian.layer.HorizontalCartesianLayerMargins
+import com.hussenyehya.vico.core.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.half
+import com.hussenyehya.vico.core.common.orZero
+import com.hussenyehya.vico.core.common.translate
 import kotlin.math.ceil
 import kotlin.math.max
 

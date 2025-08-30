@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common
+package com.hussenyehya.vico.compose.common
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.shader.ShaderProvider
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.shader.ShaderProvider
 
 /** Creates a [Fill]. */
 public fun fill(color: Color): Fill = Fill(color.toArgb())

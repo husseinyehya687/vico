@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.data
+package com.hussenyehya.vico.core.cartesian.data
 
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.rangeOf
-import com.patrykandpatrick.vico.core.common.rangeOfPair
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.rangeOf
+import com.hussenyehya.vico.core.common.rangeOfPair
 
 /** Stores a [LineCartesianLayer]’s data. */
 public class LineCartesianLayerModel : CartesianLayerModel {

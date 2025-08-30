@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common
+package com.hussenyehya.vico.compose.common
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.common.AdditionScope
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.HorizontalLegend
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.LegendItem
-import com.patrykandpatrick.vico.core.common.MeasuringContext
-import com.patrykandpatrick.vico.core.common.VerticalLegend
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.AdditionScope
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.HorizontalLegend
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.LegendItem
+import com.hussenyehya.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.common.VerticalLegend
+import com.hussenyehya.vico.core.common.data.ExtraStore
 
 /** Creates and remembers a [VerticalLegend]. */
 @Composable

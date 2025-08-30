@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 actual val Charts.overridden: LinkedHashMap<UIFramework, List<Chart>>?
   get() = null

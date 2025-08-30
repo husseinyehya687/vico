@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.content.Context
 import android.content.res.TypedArray
 import androidx.annotation.StyleableRes
-import com.patrykandpatrick.vico.core.common.shape.CorneredShape
-import com.patrykandpatrick.vico.core.common.shape.DashedShape
-import com.patrykandpatrick.vico.core.common.shape.Shape
-import com.patrykandpatrick.vico.views.R
+import com.hussenyehya.vico.core.common.shape.CorneredShape
+import com.hussenyehya.vico.core.common.shape.DashedShape
+import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.views.R
 
 private const val ONE_HUNDRED_PERCENT = 100
 

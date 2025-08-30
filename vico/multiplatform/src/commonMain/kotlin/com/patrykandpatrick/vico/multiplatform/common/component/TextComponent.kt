@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.component
+package com.hussenyehya.vico.multiplatform.common.component
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.geometry.Rect
@@ -31,19 +31,19 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.common.Defaults.TEXT_COMPONENT_LINE_COUNT
-import com.patrykandpatrick.vico.multiplatform.common.DrawingContext
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
-import com.patrykandpatrick.vico.multiplatform.common.Position
-import com.patrykandpatrick.vico.multiplatform.common.bounds
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
-import com.patrykandpatrick.vico.multiplatform.common.extendBy
-import com.patrykandpatrick.vico.multiplatform.common.half
-import com.patrykandpatrick.vico.multiplatform.common.measure
-import com.patrykandpatrick.vico.multiplatform.common.piRad
-import com.patrykandpatrick.vico.multiplatform.common.rotate
-import com.patrykandpatrick.vico.multiplatform.common.toRadians
+import com.hussenyehya.vico.multiplatform.common.Defaults.TEXT_COMPONENT_LINE_COUNT
+import com.hussenyehya.vico.multiplatform.common.DrawingContext
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.common.Position
+import com.hussenyehya.vico.multiplatform.common.bounds
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.extendBy
+import com.hussenyehya.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.common.measure
+import com.hussenyehya.vico.multiplatform.common.piRad
+import com.hussenyehya.vico.multiplatform.common.rotate
+import com.hussenyehya.vico.multiplatform.common.toRadians
 import kotlin.jvm.JvmName
 import kotlin.math.absoluteValue
 import kotlin.math.cos

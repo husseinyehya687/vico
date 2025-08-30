@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.layer
+package com.hussenyehya.vico.multiplatform.cartesian.layer
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer.Candle
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.multiplatform.common.vicoTheme
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer.Candle
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberLineComponent
+import com.hussenyehya.vico.multiplatform.common.vicoTheme
 
 @Composable
 private fun Candle.Companion.sharpFilledCandle(

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian
+package com.hussenyehya.vico.core.cartesian
 
 import android.graphics.RectF
 import androidx.annotation.RestrictTo
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerPadding
-import com.patrykandpatrick.vico.core.common.MutableMeasuringContext
-import com.patrykandpatrick.vico.core.common.Point
-import com.patrykandpatrick.vico.core.common.data.CacheStore
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerPadding
+import com.hussenyehya.vico.core.common.MutableMeasuringContext
+import com.hussenyehya.vico.core.common.Point
+import com.hussenyehya.vico.core.common.data.CacheStore
+import com.hussenyehya.vico.core.common.data.ExtraStore
 
 /** @suppress */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

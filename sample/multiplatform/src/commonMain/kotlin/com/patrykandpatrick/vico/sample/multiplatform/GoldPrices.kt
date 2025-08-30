@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.multiplatform
+package com.hussenyehya.vico.sample.multiplatform
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -22,19 +22,19 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.Axis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.candlestickSeries
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberCandlestickCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChartHost
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.axis.Axis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.multiplatform.cartesian.data.candlestickSeries
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberCandlestickCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.multiplatform.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
 import kotlin.math.ceil
 import kotlin.math.floor
 import kotlinx.datetime.LocalTime

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.component
+package com.hussenyehya.vico.multiplatform.common.component
 
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.multiplatform.common.DrawingContext
+import com.hussenyehya.vico.multiplatform.common.DrawingContext
 
 /**
  * [Component] is a generic concept of an object that can be drawn on a canvas at a given pair of

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn

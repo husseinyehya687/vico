@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 private const val ALPHA_BIT_SHIFT = 24
 private const val COLOR_MASK = 0xff

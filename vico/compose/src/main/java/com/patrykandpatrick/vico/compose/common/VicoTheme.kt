@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.common
+package com.hussenyehya.vico.compose.common
 
 import androidx.annotation.RestrictTo
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -22,13 +22,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
-import com.patrykandpatrick.vico.compose.common.VicoTheme.Companion.Dark
-import com.patrykandpatrick.vico.compose.common.VicoTheme.Companion.Light
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.core.common.DefaultColors
-import com.patrykandpatrick.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.compose.common.VicoTheme.Companion.Dark
+import com.hussenyehya.vico.compose.common.VicoTheme.Companion.Light
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.core.common.DefaultColors
+import com.hussenyehya.vico.core.common.component.LineComponent
 
 /**
  * Houses default chart colors.

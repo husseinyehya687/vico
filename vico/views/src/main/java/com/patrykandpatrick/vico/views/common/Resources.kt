@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common
+package com.hussenyehya.vico.views.common
 
 import android.content.res.Resources
 

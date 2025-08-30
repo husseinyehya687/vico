@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.compose
+package com.hussenyehya.vico.sample.compose
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -24,33 +24,33 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberBottom
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberStart
-import com.patrykandpatrick.vico.compose.cartesian.layer.point
-import com.patrykandpatrick.vico.compose.cartesian.layer.rememberLine
-import com.patrykandpatrick.vico.compose.cartesian.layer.rememberLineCartesianLayer
-import com.patrykandpatrick.vico.compose.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.compose.cartesian.rememberVicoScrollState
-import com.patrykandpatrick.vico.compose.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.compose.common.component.rememberShapeComponent
-import com.patrykandpatrick.vico.compose.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.compose.common.component.shapeComponent
-import com.patrykandpatrick.vico.compose.common.fill
-import com.patrykandpatrick.vico.compose.common.insets
-import com.patrykandpatrick.vico.compose.common.rememberVerticalLegend
-import com.patrykandpatrick.vico.compose.common.shape.rounded
-import com.patrykandpatrick.vico.compose.common.vicoTheme
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.lineSeries
-import com.patrykandpatrick.vico.core.cartesian.decoration.HorizontalLine
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.common.LegendItem
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.shape.CorneredShape
+import com.hussenyehya.vico.compose.cartesian.CartesianChartHost
+import com.hussenyehya.vico.compose.cartesian.axis.rememberBottom
+import com.hussenyehya.vico.compose.cartesian.axis.rememberStart
+import com.hussenyehya.vico.compose.cartesian.layer.point
+import com.hussenyehya.vico.compose.cartesian.layer.rememberLine
+import com.hussenyehya.vico.compose.cartesian.layer.rememberLineCartesianLayer
+import com.hussenyehya.vico.compose.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.compose.cartesian.rememberVicoScrollState
+import com.hussenyehya.vico.compose.common.component.rememberLineComponent
+import com.hussenyehya.vico.compose.common.component.rememberShapeComponent
+import com.hussenyehya.vico.compose.common.component.rememberTextComponent
+import com.hussenyehya.vico.compose.common.component.shapeComponent
+import com.hussenyehya.vico.compose.common.fill
+import com.hussenyehya.vico.compose.common.insets
+import com.hussenyehya.vico.compose.common.rememberVerticalLegend
+import com.hussenyehya.vico.compose.common.shape.rounded
+import com.hussenyehya.vico.compose.common.vicoTheme
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.lineSeries
+import com.hussenyehya.vico.core.cartesian.decoration.HorizontalLine
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.common.LegendItem
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.shape.CorneredShape
 import kotlinx.coroutines.runBlocking
 
 private val LegendLabelKey = ExtraStore.Key<Set<String>>()

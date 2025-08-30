@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.multiplatform
+package com.hussenyehya.vico.sample.multiplatform
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -22,19 +22,19 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.rememberAxisGuidelineComponent
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.CartesianMarker
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.rememberDefaultCartesianMarker
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.LayeredComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.ShapeComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberShapeComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.multiplatform.common.shape.CorneredShape
-import com.patrykandpatrick.vico.multiplatform.common.shape.MarkerCorneredShape
+import com.hussenyehya.vico.multiplatform.cartesian.axis.rememberAxisGuidelineComponent
+import com.hussenyehya.vico.multiplatform.cartesian.marker.CartesianMarker
+import com.hussenyehya.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.multiplatform.cartesian.marker.rememberDefaultCartesianMarker
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.LayeredComponent
+import com.hussenyehya.vico.multiplatform.common.component.ShapeComponent
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberShapeComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberTextComponent
+import com.hussenyehya.vico.multiplatform.common.shape.CorneredShape
+import com.hussenyehya.vico.multiplatform.common.shape.MarkerCorneredShape
 
 @Composable
 internal fun rememberMarker(

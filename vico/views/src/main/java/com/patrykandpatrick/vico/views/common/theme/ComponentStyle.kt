@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.content.Context
 import android.content.res.TypedArray
 import android.graphics.Color
 import android.graphics.Paint
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.LayeredComponent
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.ShapeComponent
-import com.patrykandpatrick.vico.core.common.shape.Shape
-import com.patrykandpatrick.vico.views.R
-import com.patrykandpatrick.vico.views.common.defaultColors
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.LayeredComponent
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.ShapeComponent
+import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.views.R
+import com.hussenyehya.vico.views.common.defaultColors
 
 internal fun TypedArray.getLineComponent(
   context: Context,

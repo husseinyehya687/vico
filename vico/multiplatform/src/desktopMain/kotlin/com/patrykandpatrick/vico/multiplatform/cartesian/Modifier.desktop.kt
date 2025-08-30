@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.animation.core.AnimationState
 import androidx.compose.animation.core.animateDecay
@@ -25,9 +25,9 @@ import androidx.compose.foundation.gestures.rememberDraggableState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
-import com.patrykandpatrick.vico.multiplatform.common.getValue
-import com.patrykandpatrick.vico.multiplatform.common.rememberWrappedValue
-import com.patrykandpatrick.vico.multiplatform.common.setValue
+import com.hussenyehya.vico.multiplatform.common.getValue
+import com.hussenyehya.vico.multiplatform.common.rememberWrappedValue
+import com.hussenyehya.vico.multiplatform.common.setValue
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 

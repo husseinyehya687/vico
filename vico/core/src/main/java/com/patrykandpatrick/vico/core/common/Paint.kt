@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common
+package com.hussenyehya.vico.core.common
 
 import android.graphics.Paint
 

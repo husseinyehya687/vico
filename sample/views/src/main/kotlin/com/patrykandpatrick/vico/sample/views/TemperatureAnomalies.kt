@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.views
+package com.hussenyehya.vico.sample.views
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidViewBinding
-import com.patrykandpatrick.vico.core.cartesian.Scroll
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.ColumnCartesianLayerModel
-import com.patrykandpatrick.vico.core.cartesian.data.columnSeries
-import com.patrykandpatrick.vico.core.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.shape.CorneredShape
-import com.patrykandpatrick.vico.sample.views.databinding.TemperatureAnomaliesBinding
-import com.patrykandpatrick.vico.views.cartesian.ScrollHandler
+import com.hussenyehya.vico.core.cartesian.Scroll
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.ColumnCartesianLayerModel
+import com.hussenyehya.vico.core.cartesian.data.columnSeries
+import com.hussenyehya.vico.core.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.shape.CorneredShape
+import com.hussenyehya.vico.sample.views.databinding.TemperatureAnomaliesBinding
+import com.hussenyehya.vico.views.cartesian.ScrollHandler
 import java.text.DecimalFormat
 import kotlin.math.abs
 import kotlin.math.ceil

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian
+package com.hussenyehya.vico.compose.cartesian
 
 import android.graphics.RectF
 import androidx.compose.animation.core.AnimationSpec
@@ -30,15 +30,15 @@ import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
-import com.patrykandpatrick.vico.core.cartesian.AutoScrollCondition
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.Scroll
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.core.cartesian.getDelta
-import com.patrykandpatrick.vico.core.cartesian.getMaxScrollDistance
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerDimensions
-import com.patrykandpatrick.vico.core.common.rangeWith
+import com.hussenyehya.vico.core.cartesian.AutoScrollCondition
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.Scroll
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.core.cartesian.getDelta
+import com.hussenyehya.vico.core.cartesian.getMaxScrollDistance
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.core.common.rangeWith
 import kotlinx.coroutines.flow.MutableSharedFlow
 
 /**

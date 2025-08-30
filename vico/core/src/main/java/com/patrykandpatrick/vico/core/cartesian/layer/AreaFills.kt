@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.layer
+package com.hussenyehya.vico.core.cartesian.layer
 
 import android.graphics.Paint
 import android.graphics.Path
 import android.graphics.RectF
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.common.DefaultAlpha
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.copyColor
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.getEnd
-import com.patrykandpatrick.vico.core.common.getStart
-import com.patrykandpatrick.vico.core.common.shader.ShaderProvider
-import com.patrykandpatrick.vico.core.common.shader.getShader
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.common.DefaultAlpha
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.copyColor
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.getEnd
+import com.hussenyehya.vico.core.common.getStart
+import com.hussenyehya.vico.core.common.shader.ShaderProvider
+import com.hussenyehya.vico.core.common.shader.getShader
 
 internal abstract class BaseAreaFill(open val splitY: (ExtraStore) -> Number) :
   LineCartesianLayer.AreaFill {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.cartesian
+package com.hussenyehya.vico.views.cartesian
 
 import androidx.core.graphics.alpha
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer.Candle
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer.Candle
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.component.LineComponent
 
 private fun LineComponent.copyWithColor(color: Int) =
   copy(

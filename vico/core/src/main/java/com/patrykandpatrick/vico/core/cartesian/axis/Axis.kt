@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.axis
+package com.hussenyehya.vico.core.cartesian.axis
 
 import android.graphics.RectF
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerMarginUpdater
-import com.patrykandpatrick.vico.core.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.core.common.Bounded
-import com.patrykandpatrick.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerMarginUpdater
+import com.hussenyehya.vico.core.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.core.common.Bounded
+import com.hussenyehya.vico.core.common.MeasuringContext
 
 /** Draws an axis. */
 @Immutable

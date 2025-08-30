@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.cartesian
+package com.hussenyehya.vico.views.cartesian
 
 import android.graphics.RectF
 import android.os.Bundle
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.Scroll
-import com.patrykandpatrick.vico.core.cartesian.Zoom
-import com.patrykandpatrick.vico.core.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.core.cartesian.layer.scale
-import com.patrykandpatrick.vico.core.common.Defaults
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.Scroll
+import com.hussenyehya.vico.core.cartesian.Zoom
+import com.hussenyehya.vico.core.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.core.cartesian.layer.scale
+import com.hussenyehya.vico.core.common.Defaults
 
 /**
  * Houses information on a [CartesianChart]’s zoom factor. Allows for zoom customization.

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.data
+package com.hussenyehya.vico.multiplatform.common.data
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayer
 
 /** Houses drawing information for a [CartesianLayer]. */
 public abstract class CartesianLayerDrawingModel<T : CartesianLayerDrawingModel.Entry>(

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.graphics.Canvas
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.common.DrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.common.DrawingContext
 import kotlin.math.ceil
 
 /** A [DrawingContext] extension with [CartesianChart]-specific data. */

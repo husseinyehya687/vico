@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common
+package com.hussenyehya.vico.core.common
 
 internal inline fun <reified T, V> T.setFieldValue(fieldName: String, value: V) {
   val field = T::class.java.getDeclaredField(fieldName)

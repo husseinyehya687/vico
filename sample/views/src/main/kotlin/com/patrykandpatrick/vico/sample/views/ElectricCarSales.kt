@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.views
+package com.hussenyehya.vico.sample.views
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -22,16 +22,16 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidViewBinding
 import androidx.core.graphics.ColorUtils
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.lineSeries
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.shader.ShaderProvider
-import com.patrykandpatrick.vico.sample.views.databinding.ElectricCarSalesBinding
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.lineSeries
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.shader.ShaderProvider
+import com.hussenyehya.vico.sample.views.databinding.ElectricCarSalesBinding
 import java.text.DecimalFormat
 
 private val x = (2010..2023).toList()

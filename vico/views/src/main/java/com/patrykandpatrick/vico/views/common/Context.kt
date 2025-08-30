@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common
+package com.hussenyehya.vico.views.common
 
 import android.content.Context
 import android.content.res.Configuration
 import android.view.View.LAYOUT_DIRECTION_LTR
-import com.patrykandpatrick.vico.core.common.DefaultColors
+import com.hussenyehya.vico.core.common.DefaultColors
 
 internal val Context.density: Float
   get() = resources.displayMetrics.density

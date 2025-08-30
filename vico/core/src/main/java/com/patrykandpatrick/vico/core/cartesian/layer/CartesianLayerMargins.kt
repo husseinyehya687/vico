@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.layer
+package com.hussenyehya.vico.core.cartesian.layer
 
 /**
  * Stores the sizes of [CartesianLayer]-area margins.

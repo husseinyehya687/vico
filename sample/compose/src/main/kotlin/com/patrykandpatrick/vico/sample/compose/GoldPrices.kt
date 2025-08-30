@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.compose
+package com.hussenyehya.vico.sample.compose
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -23,21 +23,21 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberBottom
-import com.patrykandpatrick.vico.compose.cartesian.axis.rememberStart
-import com.patrykandpatrick.vico.compose.cartesian.layer.rememberCandlestickCartesianLayer
-import com.patrykandpatrick.vico.compose.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.candlestickSeries
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.compose.cartesian.CartesianChartHost
+import com.hussenyehya.vico.compose.cartesian.axis.rememberBottom
+import com.hussenyehya.vico.compose.cartesian.axis.rememberStart
+import com.hussenyehya.vico.compose.cartesian.layer.rememberCandlestickCartesianLayer
+import com.hussenyehya.vico.compose.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.candlestickSeries
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.data.ExtraStore
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.Locale

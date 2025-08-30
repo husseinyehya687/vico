@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.marker
+package com.hussenyehya.vico.multiplatform.cartesian.marker
 
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChart
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerMarginUpdater
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChart
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerMarginUpdater
 
 /** Marks [CartesianChart] objects. */
 @Immutable

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian
+package com.hussenyehya.vico.compose.cartesian
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.animate
@@ -25,21 +25,21 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalInspectionMode
-import com.patrykandpatrick.vico.compose.cartesian.data.CartesianChartData
-import com.patrykandpatrick.vico.compose.cartesian.data.CartesianChartDataState
-import com.patrykandpatrick.vico.compose.common.rememberWrappedValue
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.core.cartesian.data.MutableCartesianChartRanges
-import com.patrykandpatrick.vico.core.cartesian.data.PreviewContext
-import com.patrykandpatrick.vico.core.cartesian.data.toImmutable
-import com.patrykandpatrick.vico.core.common.Animation
-import com.patrykandpatrick.vico.core.common.NEW_PRODUCER_ERROR_MESSAGE
-import com.patrykandpatrick.vico.core.common.ValueWrapper
-import com.patrykandpatrick.vico.core.common.data.MutableExtraStore
-import com.patrykandpatrick.vico.core.common.getValue
-import com.patrykandpatrick.vico.core.common.setValue
+import com.hussenyehya.vico.compose.cartesian.data.CartesianChartData
+import com.hussenyehya.vico.compose.cartesian.data.CartesianChartDataState
+import com.hussenyehya.vico.compose.common.rememberWrappedValue
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.core.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.core.cartesian.data.PreviewContext
+import com.hussenyehya.vico.core.cartesian.data.toImmutable
+import com.hussenyehya.vico.core.common.Animation
+import com.hussenyehya.vico.core.common.NEW_PRODUCER_ERROR_MESSAGE
+import com.hussenyehya.vico.core.common.ValueWrapper
+import com.hussenyehya.vico.core.common.data.MutableExtraStore
+import com.hussenyehya.vico.core.common.getValue
+import com.hussenyehya.vico.core.common.setValue
 import java.util.UUID
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.multiplatform
+package com.hussenyehya.vico.sample.multiplatform
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -25,29 +25,29 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.lineSeries
-import com.patrykandpatrick.vico.multiplatform.cartesian.decoration.HorizontalLine
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberLine
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberLineCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberVicoScrollState
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.LegendItem
-import com.patrykandpatrick.vico.multiplatform.common.Position
-import com.patrykandpatrick.vico.multiplatform.common.component.ShapeComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberShapeComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.rememberVerticalLegend
-import com.patrykandpatrick.vico.multiplatform.common.shape.CorneredShape
-import com.patrykandpatrick.vico.multiplatform.common.vicoTheme
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChartHost
+import com.hussenyehya.vico.multiplatform.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.multiplatform.cartesian.data.lineSeries
+import com.hussenyehya.vico.multiplatform.cartesian.decoration.HorizontalLine
+import com.hussenyehya.vico.multiplatform.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberLine
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberLineCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.multiplatform.cartesian.rememberVicoScrollState
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.LegendItem
+import com.hussenyehya.vico.multiplatform.common.Position
+import com.hussenyehya.vico.multiplatform.common.component.ShapeComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberLineComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberShapeComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberTextComponent
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.rememberVerticalLegend
+import com.hussenyehya.vico.multiplatform.common.shape.CorneredShape
+import com.hussenyehya.vico.multiplatform.common.vicoTheme
 
 private val LegendLabelKey = ExtraStore.Key<Set<String>>()
 

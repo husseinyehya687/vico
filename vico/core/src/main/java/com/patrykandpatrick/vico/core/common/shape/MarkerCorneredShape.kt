@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.shape
+package com.hussenyehya.vico.core.common.shape
 
 import android.graphics.Path
-import com.patrykandpatrick.vico.core.common.Defaults.MARKER_TICK_SIZE
-import com.patrykandpatrick.vico.core.common.MeasuringContext
-import com.patrykandpatrick.vico.core.common.doubled
-import com.patrykandpatrick.vico.core.common.half
+import com.hussenyehya.vico.core.common.Defaults.MARKER_TICK_SIZE
+import com.hussenyehya.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.common.doubled
+import com.hussenyehya.vico.core.common.half
 
 /**
  * A [CorneredShape] extension that additionally draws a triangular tick.

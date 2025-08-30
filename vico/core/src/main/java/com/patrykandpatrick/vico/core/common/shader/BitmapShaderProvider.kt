@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.shader
+package com.hussenyehya.vico.core.common.shader
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
 import android.graphics.Shader
-import com.patrykandpatrick.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.DrawingContext
 
 internal data class BitmapShaderProvider(
   private val bitmap: Bitmap,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.marker
+package com.hussenyehya.vico.multiplatform.cartesian.marker
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -26,26 +26,26 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChart
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerMargins
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.Position
-import com.patrykandpatrick.vico.multiplatform.common.averageOf
-import com.patrykandpatrick.vico.multiplatform.common.component.Component
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.ShapeComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
-import com.patrykandpatrick.vico.multiplatform.common.doubled
-import com.patrykandpatrick.vico.multiplatform.common.format
-import com.patrykandpatrick.vico.multiplatform.common.half
-import com.patrykandpatrick.vico.multiplatform.common.orZero
-import com.patrykandpatrick.vico.multiplatform.common.shape.MarkerCorneredShape
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChart
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerMargins
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.Position
+import com.hussenyehya.vico.multiplatform.common.averageOf
+import com.hussenyehya.vico.multiplatform.common.component.Component
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.ShapeComponent
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.doubled
+import com.hussenyehya.vico.multiplatform.common.format
+import com.hussenyehya.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.common.shape.MarkerCorneredShape
 import kotlin.math.ceil
 import kotlin.math.min
 

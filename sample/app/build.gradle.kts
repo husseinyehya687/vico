@@ -41,7 +41,7 @@ android {
     targetSdk = Versions.COMPILE_SDK
     versionName = Versions.VICO
   }
-  namespace = "com.patrykandpatrick.vico"
+  namespace = "com.hussenyehya.vico"
 }
 
 dependencies { debugImplementation(compose.uiTooling) }
@@ -76,9 +76,9 @@ kotlin {
 
 compose.desktop {
   application {
-    mainClass = "com.patrykandpatrick.vico.sample.MainKt"
+    mainClass = "com.hussenyehya.vico.sample.MainKt"
     nativeDistributions {
-      packageName = "com.patrykandpatrick.vico.sample"
+      packageName = "com.hussenyehya.vico.sample"
       targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
     }
   }

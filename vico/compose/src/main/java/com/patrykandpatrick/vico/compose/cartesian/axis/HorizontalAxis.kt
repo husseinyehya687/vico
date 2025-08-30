@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.axis
+package com.hussenyehya.vico.compose.cartesian.axis
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.axis.BaseAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.axis.BaseAxis
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.TextComponent
 
 /** Creates and remembers a top [HorizontalAxis]. */
 @Composable

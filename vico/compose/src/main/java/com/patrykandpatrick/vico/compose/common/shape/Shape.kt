@@ -16,7 +16,7 @@
 
 @file:Suppress("Unused")
 
-package com.patrykandpatrick.vico.compose.common.shape
+package com.hussenyehya.vico.compose.common.shape
 
 import android.graphics.Matrix
 import android.graphics.Path
@@ -28,13 +28,13 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Defaults.MARKER_TICK_SIZE
-import com.patrykandpatrick.vico.core.common.MeasuringContext
-import com.patrykandpatrick.vico.core.common.shape.CorneredShape
-import com.patrykandpatrick.vico.core.common.shape.DashedShape
-import com.patrykandpatrick.vico.core.common.shape.MarkerCorneredShape
-import com.patrykandpatrick.vico.core.common.shape.Shape
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Defaults.MARKER_TICK_SIZE
+import com.hussenyehya.vico.core.common.MeasuringContext
+import com.hussenyehya.vico.core.common.shape.CorneredShape
+import com.hussenyehya.vico.core.common.shape.DashedShape
+import com.hussenyehya.vico.core.common.shape.MarkerCorneredShape
+import com.hussenyehya.vico.core.common.shape.Shape
 
 private typealias ComposePath = androidx.compose.ui.graphics.AndroidPath
 
@@ -61,7 +61,7 @@ private fun Path.addRoundRect(
 
 /**
  * Converts this [androidx.compose.ui.graphics.Shape] to an instance of
- * [com.patrykandpatrick.vico.core.common.shape.Shape].
+ * [com.hussenyehya.vico.core.common.shape.Shape].
  */
 public fun androidx.compose.ui.graphics.Shape.toVicoShape(): Shape =
   object : Shape {

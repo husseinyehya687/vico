@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common
+package com.hussenyehya.vico.views.common
 
 import android.view.MotionEvent
 import android.view.View
 import android.widget.OverScroller
 import androidx.core.view.updatePadding
-import com.patrykandpatrick.vico.core.common.Point
+import com.hussenyehya.vico.core.common.Point
 
 internal val Int.specSize: Int
   get() = View.MeasureSpec.getSize(this)

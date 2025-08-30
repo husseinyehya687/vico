@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.axis
+package com.hussenyehya.vico.multiplatform.cartesian.axis
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.common.Position
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.getDivisors
-import com.patrykandpatrick.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.common.Position
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.getDivisors
+import com.hussenyehya.vico.multiplatform.common.half
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.floor

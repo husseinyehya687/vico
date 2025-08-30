@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.data
+package com.hussenyehya.vico.core.common.data
 
 import androidx.annotation.RestrictTo
 

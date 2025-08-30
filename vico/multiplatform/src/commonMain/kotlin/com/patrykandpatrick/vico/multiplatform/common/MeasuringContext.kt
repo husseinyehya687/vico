@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Canvas
@@ -22,8 +22,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
 
 /** Holds data used for measuring and drawing. */
 public interface MeasuringContext {

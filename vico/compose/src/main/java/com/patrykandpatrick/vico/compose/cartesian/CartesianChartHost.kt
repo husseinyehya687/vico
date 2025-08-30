@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian
+package com.hussenyehya.vico.compose.cartesian
 
 import android.annotation.SuppressLint
 import android.graphics.RectF
@@ -36,25 +36,25 @@ import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.compose.cartesian.data.component1
-import com.patrykandpatrick.vico.compose.cartesian.data.component2
-import com.patrykandpatrick.vico.compose.cartesian.data.component3
-import com.patrykandpatrick.vico.compose.cartesian.data.component4
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModel
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.core.cartesian.data.MutableCartesianChartRanges
-import com.patrykandpatrick.vico.core.cartesian.data.toImmutable
-import com.patrykandpatrick.vico.core.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.core.common.Defaults.CHART_HEIGHT
-import com.patrykandpatrick.vico.core.common.Point
-import com.patrykandpatrick.vico.core.common.ValueWrapper
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.getValue
-import com.patrykandpatrick.vico.core.common.set
-import com.patrykandpatrick.vico.core.common.setValue
+import com.hussenyehya.vico.compose.cartesian.data.component1
+import com.hussenyehya.vico.compose.cartesian.data.component2
+import com.hussenyehya.vico.compose.cartesian.data.component3
+import com.hussenyehya.vico.compose.cartesian.data.component4
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModel
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.core.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.core.cartesian.data.toImmutable
+import com.hussenyehya.vico.core.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.core.common.Defaults.CHART_HEIGHT
+import com.hussenyehya.vico.core.common.Point
+import com.hussenyehya.vico.core.common.ValueWrapper
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.getValue
+import com.hussenyehya.vico.core.common.set
+import com.hussenyehya.vico.core.common.setValue
 import kotlinx.coroutines.launch
 
 /**

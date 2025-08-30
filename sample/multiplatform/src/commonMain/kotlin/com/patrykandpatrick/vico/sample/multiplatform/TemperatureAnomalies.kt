@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.multiplatform
+package com.hussenyehya.vico.sample.multiplatform
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
@@ -23,25 +23,25 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.multiplatform.cartesian.Scroll
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.ColumnCartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.columnSeries
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.rememberColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberCartesianChart
-import com.patrykandpatrick.vico.multiplatform.cartesian.rememberVicoScrollState
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.shape.CorneredShape
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChartHost
+import com.hussenyehya.vico.multiplatform.cartesian.Scroll
+import com.hussenyehya.vico.multiplatform.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.multiplatform.cartesian.data.ColumnCartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.columnSeries
+import com.hussenyehya.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.layer.rememberColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.multiplatform.cartesian.rememberCartesianChart
+import com.hussenyehya.vico.multiplatform.cartesian.rememberVicoScrollState
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberLineComponent
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.shape.CorneredShape
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.max

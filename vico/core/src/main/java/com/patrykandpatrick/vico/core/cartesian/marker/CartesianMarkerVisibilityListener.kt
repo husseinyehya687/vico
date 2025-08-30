@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.cartesian.marker
+package com.hussenyehya.vico.core.cartesian.marker
 
 import androidx.compose.runtime.Immutable
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.layer
+package com.hussenyehya.vico.compose.cartesian.layer
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
@@ -22,16 +22,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.alpha
-import com.patrykandpatrick.vico.compose.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.compose.common.fill
-import com.patrykandpatrick.vico.compose.common.vicoTheme
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer.Candle
-import com.patrykandpatrick.vico.core.cartesian.layer.absolute
-import com.patrykandpatrick.vico.core.cartesian.layer.absoluteRelative
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.compose.common.component.rememberLineComponent
+import com.hussenyehya.vico.compose.common.fill
+import com.hussenyehya.vico.compose.common.vicoTheme
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer.Candle
+import com.hussenyehya.vico.core.cartesian.layer.absolute
+import com.hussenyehya.vico.core.cartesian.layer.absoluteRelative
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.component.LineComponent
 
 @Composable
 private fun Candle.Companion.sharpFilledCandle(

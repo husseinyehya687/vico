@@ -17,7 +17,7 @@
 plugins { `dokka-convention` }
 
 subprojects {
-  group = "com.patrykandpatrick.vico"
+  group = "com.hussenyehya.vico"
   version = Versions.VICO
 }
 

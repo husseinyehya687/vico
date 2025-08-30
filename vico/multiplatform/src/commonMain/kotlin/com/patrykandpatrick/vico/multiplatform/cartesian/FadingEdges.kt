@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.animation.core.Easing
 import androidx.compose.animation.core.FastOutSlowInEasing
@@ -29,8 +29,8 @@ import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.TileMode
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
-import com.patrykandpatrick.vico.multiplatform.common.Defaults.FADING_EDGE_WIDTH_DP
+import com.hussenyehya.vico.multiplatform.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
+import com.hussenyehya.vico.multiplatform.common.Defaults.FADING_EDGE_WIDTH_DP
 
 /**
  * [FadingEdges] applies a horizontal fade to the edges of the chart area for scrollable charts.

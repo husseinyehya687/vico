@@ -24,7 +24,7 @@ android {
   configure()
   buildFeatures { viewBinding = true }
   kotlinOptions { jvmTarget = JavaVersion.VERSION_1_8.toString() }
-  namespace = "com.patrykandpatrick.vico.sample.views"
+  namespace = "com.hussenyehya.vico.sample.views"
 }
 
 dependencies {

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample.views
+package com.hussenyehya.vico.sample.views
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidViewBinding
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.columnSeries
-import com.patrykandpatrick.vico.sample.views.databinding.BasicColumnChartBinding
+import com.hussenyehya.vico.core.cartesian.data.CartesianChartModelProducer
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.columnSeries
+import com.hussenyehya.vico.sample.views.databinding.BasicColumnChartBinding
 
 @Composable
 fun ViewBasicColumnChart(modifier: Modifier) {

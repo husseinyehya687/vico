@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.axis
+package com.hussenyehya.vico.multiplatform.cartesian.axis
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.TextStyle
@@ -22,17 +22,17 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.component.Component
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.multiplatform.common.shape.DashedShape
-import com.patrykandpatrick.vico.multiplatform.common.shape.Shape
-import com.patrykandpatrick.vico.multiplatform.common.vicoTheme
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.component.Component
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberLineComponent
+import com.hussenyehya.vico.multiplatform.common.component.rememberTextComponent
+import com.hussenyehya.vico.multiplatform.common.shape.DashedShape
+import com.hussenyehya.vico.multiplatform.common.shape.Shape
+import com.hussenyehya.vico.multiplatform.common.vicoTheme
 
 /** A [rememberTextComponent] alias with defaults for [Axis] labels. */
 @Composable

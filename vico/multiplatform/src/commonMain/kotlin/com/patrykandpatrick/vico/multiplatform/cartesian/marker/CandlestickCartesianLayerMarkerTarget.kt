@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.marker
+package com.hussenyehya.vico.multiplatform.cartesian.marker
 
 import androidx.compose.ui.graphics.Color
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer
 
 /**
  * Houses information on a [CandlestickCartesianLayer] candle to be marked.

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.marker
+package com.hussenyehya.vico.compose.cartesian.marker
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.cartesian.marker.DefaultCartesianMarker
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.cartesian.marker.DefaultCartesianMarker
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.TextComponent
 
 /** Creates and remembers a [DefaultCartesianMarker]. */
 @Composable

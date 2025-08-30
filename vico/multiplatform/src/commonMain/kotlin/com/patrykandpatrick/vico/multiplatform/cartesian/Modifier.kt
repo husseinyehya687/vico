@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.gestures.scrollable
@@ -23,8 +23,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
-import com.patrykandpatrick.vico.multiplatform.common.Point
-import com.patrykandpatrick.vico.multiplatform.common.detectZoomGestures
+import com.hussenyehya.vico.multiplatform.common.Point
+import com.hussenyehya.vico.multiplatform.common.detectZoomGestures
 
 private const val BASE_SCROLL_ZOOM_DELTA = 0.1f
 

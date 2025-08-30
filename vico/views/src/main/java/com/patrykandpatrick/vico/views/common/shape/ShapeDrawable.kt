@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.shape
+package com.hussenyehya.vico.views.common.shape
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -27,10 +27,10 @@ import android.graphics.PixelFormat
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.util.LayoutDirection
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.shape.Shape
-import com.patrykandpatrick.vico.views.common.density
-import com.patrykandpatrick.vico.views.common.isLtr
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.views.common.density
+import com.hussenyehya.vico.views.common.isLtr
 
 private const val DEFAULT_COLOR = Color.BLACK
 

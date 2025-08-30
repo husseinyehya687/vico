@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.model
+package com.hussenyehya.vico.core.model
 
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerModel
-import com.patrykandpatrick.vico.core.cartesian.data.getXDeltaGcd
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerModel
+import com.hussenyehya.vico.core.cartesian.data.getXDeltaGcd
 import io.mockk.every
 import io.mockk.mockk
 import kotlin.test.assertEquals

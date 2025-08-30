@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.marker
+package com.hussenyehya.vico.multiplatform.cartesian.marker
 
 import androidx.compose.ui.graphics.Color
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.ColumnCartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.cartesian.data.ColumnCartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
 
 /** Houses information on a set of [ColumnCartesianLayer] columns to be marked. */
 public interface ColumnCartesianLayerMarkerTarget : CartesianMarker.Target {

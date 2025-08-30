@@ -18,7 +18,7 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
-    id("publishing-convention")
+    id("maven-publish")
 }
 
 android {
@@ -52,7 +52,7 @@ android {
         }
     }
     
-    namespace = "com.patrykandpatrick.vico"
+    namespace = "com.hussenyehya.vico"
 }
 
 dependencies {
@@ -64,8 +64,20 @@ dependencies {
     api(project(":vico:multiplatform"))
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.hussenyehya.vico"
+                artifactId = "vico"
+                version = Versions.VICO
+            }
+        }
+    }
+}
 
-group = "com.patrykandpatrick.vico"
+group = "com.hussenyehya.vico"
 version = Versions.VICO
 
 subprojects.forEach { it.tasks.withType<Test>().configureEach { useJUnitPlatform() } }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common
+package com.hussenyehya.vico.multiplatform.common
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Rect
@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Canvas
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.Paint
-import com.patrykandpatrick.vico.multiplatform.common.data.CacheStore
+import com.hussenyehya.vico.multiplatform.common.data.CacheStore
 
 /** A [MeasuringContext] extension with a [Canvas] reference. */
 public interface DrawingContext : MeasuringContext {

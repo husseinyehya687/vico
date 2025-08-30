@@ -16,7 +16,7 @@
 
 @file:OptIn(ExperimentalUuidApi::class)
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.animate
@@ -27,17 +27,17 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalInspectionMode
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianChart
-import com.patrykandpatrick.vico.multiplatform.common.Animation
-import com.patrykandpatrick.vico.multiplatform.common.NEW_PRODUCER_ERROR_MESSAGE
-import com.patrykandpatrick.vico.multiplatform.common.ValueWrapper
-import com.patrykandpatrick.vico.multiplatform.common.data.CartesianLayerDrawingModel
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.data.MutableExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.gcdWith
-import com.patrykandpatrick.vico.multiplatform.common.getValue
-import com.patrykandpatrick.vico.multiplatform.common.rememberWrappedValue
-import com.patrykandpatrick.vico.multiplatform.common.setValue
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianChart
+import com.hussenyehya.vico.multiplatform.common.Animation
+import com.hussenyehya.vico.multiplatform.common.NEW_PRODUCER_ERROR_MESSAGE
+import com.hussenyehya.vico.multiplatform.common.ValueWrapper
+import com.hussenyehya.vico.multiplatform.common.data.CartesianLayerDrawingModel
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.MutableExtraStore
+import com.hussenyehya.vico.multiplatform.common.gcdWith
+import com.hussenyehya.vico.multiplatform.common.getValue
+import com.hussenyehya.vico.multiplatform.common.rememberWrappedValue
+import com.hussenyehya.vico.multiplatform.common.setValue
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext
 import kotlin.uuid.ExperimentalUuidApi

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.component
+package com.hussenyehya.vico.multiplatform.common.component
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Paint
@@ -23,11 +23,11 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.withSave
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.common.DrawingContext
-import com.patrykandpatrick.vico.multiplatform.common.Fill
-import com.patrykandpatrick.vico.multiplatform.common.Insets
-import com.patrykandpatrick.vico.multiplatform.common.half
-import com.patrykandpatrick.vico.multiplatform.common.shape.Shape
+import com.hussenyehya.vico.multiplatform.common.DrawingContext
+import com.hussenyehya.vico.multiplatform.common.Fill
+import com.hussenyehya.vico.multiplatform.common.Insets
+import com.hussenyehya.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.common.shape.Shape
 
 /**
  * Draws [Shape]s.

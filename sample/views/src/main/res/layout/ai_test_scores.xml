@@ -15,7 +15,7 @@
   -->
 
 
-<com.patrykandpatrick.vico.views.cartesian.CartesianChartView
+<com.hussenyehya.vico.views.cartesian.CartesianChartView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/chart_view"

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.Axis
-import com.patrykandpatrick.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.cartesian.axis.Axis
+import com.hussenyehya.vico.multiplatform.common.orZero
 import kotlin.math.max
 import kotlin.math.min
 

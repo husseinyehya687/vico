@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.layer
+package com.hussenyehya.vico.compose.cartesian.layer
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.data.CandlestickCartesianLayerDrawingModel
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.ValueWrapper
-import com.patrykandpatrick.vico.core.common.data.CartesianLayerDrawingModelInterpolator
-import com.patrykandpatrick.vico.core.common.getValue
-import com.patrykandpatrick.vico.core.common.setValue
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.data.CandlestickCartesianLayerDrawingModel
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.ValueWrapper
+import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModelInterpolator
+import com.hussenyehya.vico.core.common.getValue
+import com.hussenyehya.vico.core.common.setValue
 
 /** Creates and remembers a [CandlestickCartesianLayer]. */
 @Composable

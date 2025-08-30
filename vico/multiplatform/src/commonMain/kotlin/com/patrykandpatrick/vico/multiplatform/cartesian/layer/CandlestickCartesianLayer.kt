@@ -14,40 +14,40 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.layer
+package com.hussenyehya.vico.multiplatform.cartesian.layer
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianDrawingContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.CartesianMeasuringContext
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.Axis
-import com.patrykandpatrick.vico.multiplatform.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CandlestickCartesianLayerDrawingModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel.Change
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.MutableCartesianChartRanges
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.getSliceIndices
-import com.patrykandpatrick.vico.multiplatform.cartesian.getVisibleXRange
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer.Candle
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.CandlestickCartesianLayerMarkerTarget
-import com.patrykandpatrick.vico.multiplatform.cartesian.marker.CartesianMarker
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
-import com.patrykandpatrick.vico.multiplatform.common.ValueWrapper
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.data.CartesianLayerDrawingModelInterpolator
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.data.MutableExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.extractColor
-import com.patrykandpatrick.vico.multiplatform.common.getStart
-import com.patrykandpatrick.vico.multiplatform.common.getValue
-import com.patrykandpatrick.vico.multiplatform.common.half
-import com.patrykandpatrick.vico.multiplatform.common.setValue
-import com.patrykandpatrick.vico.multiplatform.common.shape.Shape
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianDrawingContext
+import com.hussenyehya.vico.multiplatform.cartesian.CartesianMeasuringContext
+import com.hussenyehya.vico.multiplatform.cartesian.axis.Axis
+import com.hussenyehya.vico.multiplatform.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.multiplatform.cartesian.data.CandlestickCartesianLayerDrawingModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.data.CandlestickCartesianLayerModel.Change
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.multiplatform.cartesian.data.MutableCartesianChartRanges
+import com.hussenyehya.vico.multiplatform.cartesian.data.getSliceIndices
+import com.hussenyehya.vico.multiplatform.cartesian.getVisibleXRange
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CandlestickCartesianLayer.Candle
+import com.hussenyehya.vico.multiplatform.cartesian.marker.CandlestickCartesianLayerMarkerTarget
+import com.hussenyehya.vico.multiplatform.cartesian.marker.CartesianMarker
+import com.hussenyehya.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.common.ValueWrapper
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.data.CartesianLayerDrawingModelInterpolator
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.data.MutableExtraStore
+import com.hussenyehya.vico.multiplatform.common.extractColor
+import com.hussenyehya.vico.multiplatform.common.getStart
+import com.hussenyehya.vico.multiplatform.common.getValue
+import com.hussenyehya.vico.multiplatform.common.half
+import com.hussenyehya.vico.multiplatform.common.setValue
+import com.hussenyehya.vico.multiplatform.common.shape.Shape
 import kotlin.math.max
 
 /**

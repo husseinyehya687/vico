@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common
+package com.hussenyehya.vico.views.common
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -28,13 +28,13 @@ import android.view.animation.Interpolator
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.common.Animation
-import com.patrykandpatrick.vico.core.common.MutableMeasuringContext
-import com.patrykandpatrick.vico.core.common.data.ExtraStore
-import com.patrykandpatrick.vico.core.common.data.MutableExtraStore
-import com.patrykandpatrick.vico.core.common.set
-import com.patrykandpatrick.vico.core.common.spToPx
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.common.Animation
+import com.hussenyehya.vico.core.common.MutableMeasuringContext
+import com.hussenyehya.vico.core.common.data.ExtraStore
+import com.hussenyehya.vico.core.common.data.MutableExtraStore
+import com.hussenyehya.vico.core.common.set
+import com.hussenyehya.vico.core.common.spToPx
 import kotlin.coroutines.EmptyCoroutineContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableFloatState
@@ -25,9 +25,9 @@ import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.geometry.center
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.scale
-import com.patrykandpatrick.vico.multiplatform.common.Defaults
+import com.hussenyehya.vico.multiplatform.cartesian.layer.MutableCartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.cartesian.layer.scale
+import com.hussenyehya.vico.multiplatform.common.Defaults
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.animation.TimeInterpolator
 import android.content.Context
@@ -22,18 +22,18 @@ import android.content.res.TypedArray
 import android.util.AttributeSet
 import android.util.Log
 import android.view.animation.AccelerateInterpolator
-import com.patrykandpatrick.vico.core.cartesian.CartesianChart
-import com.patrykandpatrick.vico.core.cartesian.FadingEdges
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.axis.HorizontalAxis
-import com.patrykandpatrick.vico.core.cartesian.axis.VerticalAxis
-import com.patrykandpatrick.vico.core.cartesian.layer.CartesianLayerPadding
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.hasFlag
-import com.patrykandpatrick.vico.core.common.shape.DashedShape
-import com.patrykandpatrick.vico.views.R
+import com.hussenyehya.vico.core.cartesian.CartesianChart
+import com.hussenyehya.vico.core.cartesian.FadingEdges
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.axis.HorizontalAxis
+import com.hussenyehya.vico.core.cartesian.axis.VerticalAxis
+import com.hussenyehya.vico.core.cartesian.layer.CartesianLayerPadding
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Defaults.FADING_EDGE_VISIBILITY_THRESHOLD_DP
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.hasFlag
+import com.hussenyehya.vico.core.common.shape.DashedShape
+import com.hussenyehya.vico.views.R
 
 internal class ThemeHandler(private val context: Context, attrs: AttributeSet?) {
   var scrollEnabled: Boolean = false

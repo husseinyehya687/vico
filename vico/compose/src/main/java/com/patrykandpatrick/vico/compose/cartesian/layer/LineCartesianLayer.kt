@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.compose.cartesian.layer
+package com.hussenyehya.vico.compose.cartesian.layer
 
 import android.graphics.Paint
 import androidx.compose.runtime.Composable
@@ -22,21 +22,21 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.compose.common.fill
-import com.patrykandpatrick.vico.compose.common.vicoTheme
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianLayerRangeProvider
-import com.patrykandpatrick.vico.core.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.core.cartesian.data.LineCartesianLayerDrawingModel
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.ValueWrapper
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.data.CartesianLayerDrawingModelInterpolator
-import com.patrykandpatrick.vico.core.common.getValue
-import com.patrykandpatrick.vico.core.common.setValue
+import com.hussenyehya.vico.compose.common.fill
+import com.hussenyehya.vico.compose.common.vicoTheme
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.cartesian.data.CartesianLayerRangeProvider
+import com.hussenyehya.vico.core.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.core.cartesian.data.LineCartesianLayerDrawingModel
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.ValueWrapper
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.data.CartesianLayerDrawingModelInterpolator
+import com.hussenyehya.vico.core.common.getValue
+import com.hussenyehya.vico.core.common.setValue
 
 /** Creates and remembers a [LineCartesianLayer]. */
 @Composable

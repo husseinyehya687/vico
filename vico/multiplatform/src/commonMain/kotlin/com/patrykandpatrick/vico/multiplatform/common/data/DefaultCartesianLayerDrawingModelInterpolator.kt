@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.data
+package com.hussenyehya.vico.multiplatform.common.data
 
-import com.patrykandpatrick.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.common.orZero
 import kotlin.math.max
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.ensureActive

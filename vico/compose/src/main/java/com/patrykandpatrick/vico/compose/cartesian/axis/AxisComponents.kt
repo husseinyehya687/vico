@@ -16,7 +16,7 @@
 
 @file:Suppress("DeprecatedCallableAddReplaceWith")
 
-package com.patrykandpatrick.vico.compose.cartesian.axis
+package com.hussenyehya.vico.compose.cartesian.axis
 
 import android.graphics.Typeface
 import android.text.Layout
@@ -27,21 +27,21 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.patrykandpatrick.vico.compose.common.component.rememberLineComponent
-import com.patrykandpatrick.vico.compose.common.component.rememberTextComponent
-import com.patrykandpatrick.vico.compose.common.fill
-import com.patrykandpatrick.vico.compose.common.insets
-import com.patrykandpatrick.vico.compose.common.shape.dashedShape
-import com.patrykandpatrick.vico.compose.common.vicoTheme
-import com.patrykandpatrick.vico.core.cartesian.axis.Axis
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Fill
-import com.patrykandpatrick.vico.core.common.Insets
-import com.patrykandpatrick.vico.core.common.component.Component
-import com.patrykandpatrick.vico.core.common.component.LineComponent
-import com.patrykandpatrick.vico.core.common.component.Shadow
-import com.patrykandpatrick.vico.core.common.component.TextComponent
-import com.patrykandpatrick.vico.core.common.shape.Shape
+import com.hussenyehya.vico.compose.common.component.rememberLineComponent
+import com.hussenyehya.vico.compose.common.component.rememberTextComponent
+import com.hussenyehya.vico.compose.common.fill
+import com.hussenyehya.vico.compose.common.insets
+import com.hussenyehya.vico.compose.common.shape.dashedShape
+import com.hussenyehya.vico.compose.common.vicoTheme
+import com.hussenyehya.vico.core.cartesian.axis.Axis
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Fill
+import com.hussenyehya.vico.core.common.Insets
+import com.hussenyehya.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.component.LineComponent
+import com.hussenyehya.vico.core.common.component.Shadow
+import com.hussenyehya.vico.core.common.component.TextComponent
+import com.hussenyehya.vico.core.common.shape.Shape
 
 /** A [rememberTextComponent] alias with defaults for [Axis] labels. */
 @Composable

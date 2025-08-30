@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.shape
+package com.hussenyehya.vico.multiplatform.common.shape
 
 import androidx.annotation.IntRange
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
-import com.patrykandpatrick.vico.multiplatform.common.piRad
-import com.patrykandpatrick.vico.multiplatform.common.shape.CorneredShape.CornerTreatment
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.common.piRad
+import com.hussenyehya.vico.multiplatform.common.shape.CorneredShape.CornerTreatment
 import kotlin.math.absoluteValue
 
 /**

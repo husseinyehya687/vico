@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.m3.common
+package com.hussenyehya.vico.multiplatform.m3.common
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
-import com.patrykandpatrick.vico.multiplatform.common.VicoTheme
-import com.patrykandpatrick.vico.multiplatform.common.getDefaultColors
+import com.hussenyehya.vico.multiplatform.common.VicoTheme
+import com.hussenyehya.vico.multiplatform.common.getDefaultColors
 
 /** Creates and remembers a [VicoTheme] based on [MaterialTheme.colorScheme]. */
 @Composable

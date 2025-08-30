@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.views.common.theme
+package com.hussenyehya.vico.views.common.theme
 
 import android.content.Context
 import android.content.res.TypedArray
 import androidx.annotation.StyleableRes
-import com.patrykandpatrick.vico.core.cartesian.layer.CandlestickCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.LineCartesianLayer
-import com.patrykandpatrick.vico.core.cartesian.layer.absolute
-import com.patrykandpatrick.vico.core.cartesian.layer.absoluteRelative
-import com.patrykandpatrick.vico.core.cartesian.layer.asWick
-import com.patrykandpatrick.vico.core.common.Defaults
-import com.patrykandpatrick.vico.core.common.Position
-import com.patrykandpatrick.vico.core.common.getRepeating
-import com.patrykandpatrick.vico.core.common.shape.Shape
-import com.patrykandpatrick.vico.views.R
-import com.patrykandpatrick.vico.views.cartesian.copyWithColor
-import com.patrykandpatrick.vico.views.cartesian.sharpFilledCandle
-import com.patrykandpatrick.vico.views.cartesian.sharpHollowCandle
-import com.patrykandpatrick.vico.views.common.defaultColors
+import com.hussenyehya.vico.core.cartesian.layer.CandlestickCartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.core.cartesian.layer.absolute
+import com.hussenyehya.vico.core.cartesian.layer.absoluteRelative
+import com.hussenyehya.vico.core.cartesian.layer.asWick
+import com.hussenyehya.vico.core.common.Defaults
+import com.hussenyehya.vico.core.common.Position
+import com.hussenyehya.vico.core.common.getRepeating
+import com.hussenyehya.vico.core.common.shape.Shape
+import com.hussenyehya.vico.views.R
+import com.hussenyehya.vico.views.cartesian.copyWithColor
+import com.hussenyehya.vico.views.cartesian.sharpFilledCandle
+import com.hussenyehya.vico.views.cartesian.sharpHollowCandle
+import com.hussenyehya.vico.views.common.defaultColors
 
 internal fun TypedArray.getColumnCartesianLayer(
   context: Context,

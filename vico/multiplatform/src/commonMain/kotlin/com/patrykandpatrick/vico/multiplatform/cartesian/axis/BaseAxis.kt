@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.axis
+package com.hussenyehya.vico.multiplatform.cartesian.axis
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.CartesianValueFormatter
-import com.patrykandpatrick.vico.multiplatform.common.MeasuringContext
-import com.patrykandpatrick.vico.multiplatform.common.component.LineComponent
-import com.patrykandpatrick.vico.multiplatform.common.component.TextComponent
-import com.patrykandpatrick.vico.multiplatform.common.orZero
-import com.patrykandpatrick.vico.multiplatform.common.setAll
+import com.hussenyehya.vico.multiplatform.cartesian.data.CartesianValueFormatter
+import com.hussenyehya.vico.multiplatform.common.MeasuringContext
+import com.hussenyehya.vico.multiplatform.common.component.LineComponent
+import com.hussenyehya.vico.multiplatform.common.component.TextComponent
+import com.hussenyehya.vico.multiplatform.common.orZero
+import com.hussenyehya.vico.multiplatform.common.setAll
 
 /**
  * A base [Axis] implementation. This is extended by [HorizontalAxis] and [VerticalAxis].

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.core.common.shader
+package com.hussenyehya.vico.core.common.shader
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
@@ -26,8 +26,8 @@ import android.graphics.Shader
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Immutable
-import com.patrykandpatrick.vico.core.common.DrawingContext
-import com.patrykandpatrick.vico.core.common.component.Component
+import com.hussenyehya.vico.core.common.DrawingContext
+import com.hussenyehya.vico.core.common.component.Component
 
 /** Creates [Shader]s on demand. */
 @Immutable

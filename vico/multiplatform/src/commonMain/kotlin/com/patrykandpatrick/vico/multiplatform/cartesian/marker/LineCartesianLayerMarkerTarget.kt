@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.marker
+package com.hussenyehya.vico.multiplatform.cartesian.marker
 
 import androidx.compose.ui.graphics.Color
-import com.patrykandpatrick.vico.multiplatform.cartesian.data.LineCartesianLayerModel
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.LineCartesianLayer
+import com.hussenyehya.vico.multiplatform.cartesian.data.LineCartesianLayerModel
+import com.hussenyehya.vico.multiplatform.cartesian.layer.LineCartesianLayer
 
 /** Houses information on a set of [LineCartesianLayer] points to be marked. */
 public interface LineCartesianLayerMarkerTarget : CartesianMarker.Target {

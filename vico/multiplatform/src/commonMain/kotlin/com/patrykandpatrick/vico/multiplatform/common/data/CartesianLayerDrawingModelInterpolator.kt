@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.common.data
+package com.hussenyehya.vico.multiplatform.common.data
 
 /** Interpolates two [CartesianLayerDrawingModel]s. */
 public interface CartesianLayerDrawingModelInterpolator<

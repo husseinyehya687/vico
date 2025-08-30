@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian.data
+package com.hussenyehya.vico.multiplatform.cartesian.data
 
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
-import com.patrykandpatrick.vico.multiplatform.common.data.ExtraStore
-import com.patrykandpatrick.vico.multiplatform.common.rangeOf
-import com.patrykandpatrick.vico.multiplatform.common.rangeOfPair
+import com.hussenyehya.vico.multiplatform.cartesian.layer.ColumnCartesianLayer
+import com.hussenyehya.vico.multiplatform.common.data.ExtraStore
+import com.hussenyehya.vico.multiplatform.common.rangeOf
+import com.hussenyehya.vico.multiplatform.common.rangeOfPair
 
 /** Stores a [ColumnCartesianLayer]’s data. */
 public class ColumnCartesianLayerModel : CartesianLayerModel {

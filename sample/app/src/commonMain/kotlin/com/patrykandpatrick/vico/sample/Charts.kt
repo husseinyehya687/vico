@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.sample
+package com.hussenyehya.vico.sample
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.patrykandpatrick.vico.sample.Chart.Details
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformAITestScores
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformBasicColumnChart
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformBasicComboChart
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformBasicLineChart
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformDailyDigitalMediaUse
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformElectricCarSales
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformGoldPrices
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformRockMetalRatios
-import com.patrykandpatrick.vico.sample.multiplatform.ComposeMultiplatformTemperatureAnomalies
+import com.hussenyehya.vico.sample.Chart.Details
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformAITestScores
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformBasicColumnChart
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformBasicComboChart
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformBasicLineChart
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformDailyDigitalMediaUse
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformElectricCarSales
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformGoldPrices
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformRockMetalRatios
+import com.hussenyehya.vico.sample.multiplatform.ComposeMultiplatformTemperatureAnomalies
 
 object Charts {
   val ComposeMultiplatform =

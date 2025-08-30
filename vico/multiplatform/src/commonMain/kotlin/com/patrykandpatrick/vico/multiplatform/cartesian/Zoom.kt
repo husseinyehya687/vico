@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.patrykandpatrick.vico.multiplatform.cartesian
+package com.hussenyehya.vico.multiplatform.cartesian
 
 import androidx.compose.ui.geometry.Rect
-import com.patrykandpatrick.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
+import com.hussenyehya.vico.multiplatform.cartesian.layer.CartesianLayerDimensions
 import kotlin.math.max
 import kotlin.math.min
 
