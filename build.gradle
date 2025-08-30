@@ -2,26 +2,37 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.4'
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
     }
 }
 
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-repositories {
-    google()
-    mavenCentral()
-}
-
 android {
-    compileSdkVersion 34
+    compileSdkVersion 33
     
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 33
+        versionCode 1
+        versionName "3.0.4"
+    }
+    
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
     }
     
     compileOptions {
@@ -31,11 +42,26 @@ android {
     
     lintOptions {
         abortOnError false
+        checkReleaseBuilds false
+    }
+    
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
     }
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.7.0'
+    // Minimal dependencies
+    implementation 'androidx.annotation:annotation:1.6.0'
+}
+
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
 }
 
 afterEvaluate {
@@ -43,9 +69,37 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+                artifact sourceJar
+                
                 groupId = 'com.github.husseinyehya687'
                 artifactId = 'vico'
-                version = '3.0.3'
+                version = '3.0.4'
+                
+                pom {
+                    name = 'Vico Chart Library'
+                    description = 'Android charting library'
+                    url = 'https://github.com/husseinyehya687/vico'
+                    
+                    licenses {
+                        license {
+                            name = 'The Apache License, Version 2.0'
+                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        }
+                    }
+                    
+                    developers {
+                        developer {
+                            id = 'husseinyehya687'
+                            name = 'Hussein Yehya'
+                        }
+                    }
+                    
+                    scm {
+                        connection = 'scm:git:github.com/husseinyehya687/vico.git'
+                        developerConnection = 'scm:git:ssh://github.com/husseinyehya687/vico.git'
+                        url = 'https://github.com/husseinyehya687/vico/tree/master'
+                    }
+                }
             }
         }
     }
