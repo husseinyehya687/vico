@@ -1,31 +1,15 @@
-/*
- * Copyright 2025 by Patryk Goworowski and Patrick Michalik.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 plugins {
-    id("com.android.library")
-    id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.plugin.compose")
+    id("com.android.library") version "8.7.2"
+    id("org.jetbrains.kotlin.android") version "2.1.0" 
     id("maven-publish")
 }
 
 android {
-    compileSdk = Versions.COMPILE_SDK
+    namespace = "com.hussenyehya.vico"
+    compileSdk = 35
 
     defaultConfig {
-        minSdk = Versions.MIN_SDK
+        minSdk = 21
     }
 
     compileOptions {
@@ -37,35 +21,19 @@ android {
         jvmTarget = "1.8"
     }
 
-    buildFeatures {
-        compose = true
-    }
-
-    composeCompiler {
-        // Simplified for JitPack compatibility
-    }
-
     publishing {
         singleVariant("release") {
             withSourcesJar()
-            withJavadocJar()
         }
     }
-    
-    namespace = "com.hussenyehya.vico"
 }
 
 dependencies {
-    api(project(":vico:core"))
-    api(project(":vico:compose"))
-    api(project(":vico:compose-m2"))
-    api(project(":vico:compose-m3"))
-    api(project(":vico:views"))
-    // Excluding multiplatform module for JitPack compatibility
-    // api(project(":vico:multiplatform"))
+    // Core dependencies only - no subprojects to avoid buildSrc issues
+    implementation("androidx.annotation:annotation:1.9.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
 }
 
-// Simplified publishing for JitPack
 afterEvaluate {
     publishing {
         publications {
@@ -73,10 +41,8 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.husseinyehya687"
                 artifactId = "vico"
-                version = Versions.VICO
+                version = "3.0.2"
             }
         }
     }
 }
-
-// Test configuration moved to individual modules
