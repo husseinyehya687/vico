@@ -42,7 +42,7 @@ android {
     }
 
     composeCompiler {
-        enableStrongSkippingMode = true
+        // Simplified for JitPack compatibility
     }
 
     publishing {
@@ -61,15 +61,17 @@ dependencies {
     api(project(":vico:compose-m2"))
     api(project(":vico:compose-m3"))
     api(project(":vico:views"))
-    api(project(":vico:multiplatform"))
+    // Excluding multiplatform module for JitPack compatibility
+    // api(project(":vico:multiplatform"))
 }
 
+// Simplified publishing for JitPack
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.hussenyehya.vico"
+                groupId = "com.github.husseinyehya687"
                 artifactId = "vico"
                 version = Versions.VICO
             }
@@ -77,7 +79,4 @@ afterEvaluate {
     }
 }
 
-group = "com.hussenyehya.vico"
-version = Versions.VICO
-
-subprojects.forEach { it.tasks.withType<Test>().configureEach { useJUnitPlatform() } }
+// Test configuration moved to individual modules

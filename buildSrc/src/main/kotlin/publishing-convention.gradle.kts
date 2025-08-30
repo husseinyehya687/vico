@@ -19,8 +19,8 @@ import com.vanniktech.maven.publish.SonatypeHost
 plugins { id("com.vanniktech.maven.publish") }
 
 mavenPublishing {
-  publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
-  // signAllPublications() // Temporarily disabled for local publishing
+  // publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL) // Disabled for JitPack
+  // signAllPublications() // Disabled for JitPack
   pom {
     name = "Vico"
     description = "A powerful and extensible multiplatform chart library."
