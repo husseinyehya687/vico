@@ -18,7 +18,7 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
-    id("maven-publish")
+    id("publishing-convention")
 }
 
 android {
@@ -51,6 +51,8 @@ android {
             withJavadocJar()
         }
     }
+    
+    namespace = "com.patrykandpatrick.vico"
 }
 
 dependencies {
@@ -62,16 +64,6 @@ dependencies {
     api(project(":vico:multiplatform"))
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("release") {
-            from(components["release"])
-            groupId = "com.patrykandpatrick.vico"
-            artifactId = "vico"
-            version = Versions.VICO
-        }
-    }
-}
 
 group = "com.patrykandpatrick.vico"
 version = Versions.VICO
