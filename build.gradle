@@ -104,18 +104,29 @@ task sourceJar(type: Jar) {
 
 afterEvaluate {
     publishing {
+        repositories {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/husseinyehya687/vico")
+                credentials {
+                    username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                    password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                }
+            }
+        }
+        
         publications {
             release(MavenPublication) {
                 from components.release
                 artifact sourceJar
                 
-                groupId = 'com.github.husseinyehya687'
+                groupId = 'com.hussenyehya.vico'
                 artifactId = 'vico'
                 version = '3.0.6'
                 
                 pom {
                     name = 'Vico Chart Library'
-                    description = 'Android charting library'
+                    description = 'A powerful and extensible Android charting library with Core, Compose, and Views modules'
                     url = 'https://github.com/husseinyehya687/vico'
                     
                     licenses {
@@ -129,13 +140,14 @@ afterEvaluate {
                         developer {
                             id = 'husseinyehya687'
                             name = 'Hussein Yehya'
+                            email = 'hussenyehya687@example.com'
                         }
                     }
                     
                     scm {
-                        connection = 'scm:git:github.com/husseinyehya687/vico.git'
+                        connection = 'scm:git:git://github.com/husseinyehya687/vico.git'
                         developerConnection = 'scm:git:ssh://github.com/husseinyehya687/vico.git'
-                        url = 'https://github.com/husseinyehya687/vico/tree/master'
+                        url = 'https://github.com/husseinyehya687/vico'
                     }
                 }
             }
